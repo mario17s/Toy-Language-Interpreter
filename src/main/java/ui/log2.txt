@@ -1,0 +1,288 @@
+2
+
+ExeStack: stack=[(int b; (a=2+3*5 (b=a+1 print(b)))), int a;]
+SymTable: dictionary={}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+2
+
+ExeStack: stack=[(int b; (a=2+3*5 (b=a+1 print(b)))), int a;]
+SymTable: dictionary={}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+2
+
+ExeStack: stack=[(int b; (a=2+3*5 (b=a+1 print(b))))]
+SymTable: dictionary={a=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+2
+
+ExeStack: stack=[(int b; (a=2+3*5 (b=a+1 print(b))))]
+SymTable: dictionary={a=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+2
+
+ExeStack: stack=[(a=2+3*5 (b=a+1 print(b))), int b;]
+SymTable: dictionary={a=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+2
+
+ExeStack: stack=[(a=2+3*5 (b=a+1 print(b))), int b;]
+SymTable: dictionary={a=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+2
+
+ExeStack: stack=[(a=2+3*5 (b=a+1 print(b)))]
+SymTable: dictionary={a=0, b=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+2
+
+ExeStack: stack=[(a=2+3*5 (b=a+1 print(b)))]
+SymTable: dictionary={a=0, b=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+2
+
+ExeStack: stack=[(b=a+1 print(b)), a=2+3*5]
+SymTable: dictionary={a=0, b=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+2
+
+ExeStack: stack=[(b=a+1 print(b)), a=2+3*5]
+SymTable: dictionary={a=0, b=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+2
+
+ExeStack: stack=[(b=a+1 print(b))]
+SymTable: dictionary={a=17, b=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+2
+
+ExeStack: stack=[(b=a+1 print(b))]
+SymTable: dictionary={a=17, b=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+2
+
+ExeStack: stack=[print(b), b=a+1]
+SymTable: dictionary={a=17, b=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+2
+
+ExeStack: stack=[print(b), b=a+1]
+SymTable: dictionary={a=17, b=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+2
+
+ExeStack: stack=[print(b)]
+SymTable: dictionary={a=17, b=18}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+2
+
+ExeStack: stack=[print(b)]
+SymTable: dictionary={a=17, b=18}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+2
+
+ExeStack: stack=[]
+SymTable: dictionary={a=17, b=18}
+Out: list=[18]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+2
+
+ExeStack: stack=[]
+SymTable: dictionary={a=17, b=18}
+Out: list=[18]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+2
+
+ExeStack: stack=[(int b; (a=2+3*5 (b=a+1 print(b)))), int a;]
+SymTable: dictionary={}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+2
+
+ExeStack: stack=[(int b; (a=2+3*5 (b=a+1 print(b)))), int a;]
+SymTable: dictionary={}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+2
+
+ExeStack: stack=[(int b; (a=2+3*5 (b=a+1 print(b))))]
+SymTable: dictionary={a=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+2
+
+ExeStack: stack=[(int b; (a=2+3*5 (b=a+1 print(b))))]
+SymTable: dictionary={a=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+2
+
+ExeStack: stack=[(a=2+3*5 (b=a+1 print(b))), int b;]
+SymTable: dictionary={a=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+2
+
+ExeStack: stack=[(a=2+3*5 (b=a+1 print(b))), int b;]
+SymTable: dictionary={a=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+2
+
+ExeStack: stack=[(a=2+3*5 (b=a+1 print(b)))]
+SymTable: dictionary={a=0, b=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+2
+
+ExeStack: stack=[(a=2+3*5 (b=a+1 print(b)))]
+SymTable: dictionary={a=0, b=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+2
+
+ExeStack: stack=[(b=a+1 print(b)), a=2+3*5]
+SymTable: dictionary={a=0, b=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+2
+
+ExeStack: stack=[(b=a+1 print(b)), a=2+3*5]
+SymTable: dictionary={a=0, b=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+2
+
+ExeStack: stack=[(b=a+1 print(b))]
+SymTable: dictionary={a=17, b=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+2
+
+ExeStack: stack=[(b=a+1 print(b))]
+SymTable: dictionary={a=17, b=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+2
+
+ExeStack: stack=[print(b), b=a+1]
+SymTable: dictionary={a=17, b=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+2
+
+ExeStack: stack=[print(b), b=a+1]
+SymTable: dictionary={a=17, b=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+2
+
+ExeStack: stack=[print(b)]
+SymTable: dictionary={a=17, b=18}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+2
+
+ExeStack: stack=[print(b)]
+SymTable: dictionary={a=17, b=18}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+2
+
+ExeStack: stack=[]
+SymTable: dictionary={a=17, b=18}
+Out: list=[18]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+2
+
+ExeStack: stack=[]
+SymTable: dictionary={a=17, b=18}
+Out: list=[18]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------

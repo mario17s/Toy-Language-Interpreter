@@ -1,0 +1,5040 @@
+11
+
+ExeStack: stack=[(int counter; WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}), Ref(int) a;]
+SymTable: dictionary={}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+11
+
+ExeStack: stack=[(int counter; WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}), Ref(int) a;]
+SymTable: dictionary={}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+11
+
+ExeStack: stack=[(int counter; WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)})]
+SymTable: dictionary={a=RefValue(0int)}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+11
+
+ExeStack: stack=[(int counter; WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)})]
+SymTable: dictionary={a=RefValue(0int)}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, int counter;]
+SymTable: dictionary={a=RefValue(0int)}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, int counter;]
+SymTable: dictionary={a=RefValue(0int)}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}]
+SymTable: dictionary={a=RefValue(0int), counter=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}]
+SymTable: dictionary={a=RefValue(0int), counter=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, (statements.ForkStatement@300ffa5d counter=counter+1)]
+SymTable: dictionary={a=RefValue(0int), counter=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, (statements.ForkStatement@300ffa5d counter=counter+1)]
+SymTable: dictionary={a=RefValue(0int), counter=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1, statements.ForkStatement@300ffa5d]
+SymTable: dictionary={a=RefValue(0int), counter=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1, statements.ForkStatement@300ffa5d]
+SymTable: dictionary={a=RefValue(0int), counter=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1]
+SymTable: dictionary={a=RefValue(0int), counter=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[statements.ForkStatement@5b80350b]
+SymTable: dictionary={a=RefValue(0int), counter=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1]
+SymTable: dictionary={a=RefValue(0int), counter=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[statements.ForkStatement@5b80350b]
+SymTable: dictionary={a=RefValue(0int), counter=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}]
+SymTable: dictionary={a=RefValue(0int), counter=1}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(0int), counter=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+13
+
+ExeStack: stack=[(HeapAllocStmt{id='a', expression=counter} print(RHExp{expression=a}))]
+SymTable: dictionary={a=RefValue(0int), counter=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}]
+SymTable: dictionary={a=RefValue(0int), counter=1}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(0int), counter=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+13
+
+ExeStack: stack=[(HeapAllocStmt{id='a', expression=counter} print(RHExp{expression=a}))]
+SymTable: dictionary={a=RefValue(0int), counter=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, (statements.ForkStatement@300ffa5d counter=counter+1)]
+SymTable: dictionary={a=RefValue(0int), counter=1}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+13
+
+ExeStack: stack=[print(RHExp{expression=a}), HeapAllocStmt{id='a', expression=counter}]
+SymTable: dictionary={a=RefValue(0int), counter=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, (statements.ForkStatement@300ffa5d counter=counter+1)]
+SymTable: dictionary={a=RefValue(0int), counter=1}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+13
+
+ExeStack: stack=[print(RHExp{expression=a}), HeapAllocStmt{id='a', expression=counter}]
+SymTable: dictionary={a=RefValue(0int), counter=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1, statements.ForkStatement@300ffa5d]
+SymTable: dictionary={a=RefValue(0int), counter=1}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={1=0}, newFree=2}
+-------------------------
+13
+
+ExeStack: stack=[print(RHExp{expression=a})]
+SymTable: dictionary={a=RefValue(1int), counter=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={1=0}, newFree=2}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1, statements.ForkStatement@300ffa5d]
+SymTable: dictionary={a=RefValue(0int), counter=1}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={1=0}, newFree=2}
+-------------------------
+13
+
+ExeStack: stack=[print(RHExp{expression=a})]
+SymTable: dictionary={a=RefValue(1int), counter=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={1=0}, newFree=2}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1]
+SymTable: dictionary={a=RefValue(0int), counter=1}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={1=0}, newFree=2}
+-------------------------
+13
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(1int), counter=0}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={1=0}, newFree=2}
+-------------------------
+14
+
+ExeStack: stack=[statements.ForkStatement@5b80350b]
+SymTable: dictionary={a=RefValue(0int), counter=1}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={1=0}, newFree=2}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1]
+SymTable: dictionary={a=RefValue(0int), counter=1}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={1=0}, newFree=2}
+-------------------------
+13
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(1int), counter=0}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={1=0}, newFree=2}
+-------------------------
+14
+
+ExeStack: stack=[statements.ForkStatement@5b80350b]
+SymTable: dictionary={a=RefValue(0int), counter=1}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={1=0}, newFree=2}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}]
+SymTable: dictionary={a=RefValue(0int), counter=2}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={1=0}, newFree=2}
+-------------------------
+14
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(0int), counter=1}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={1=0}, newFree=2}
+-------------------------
+15
+
+ExeStack: stack=[(HeapAllocStmt{id='a', expression=counter} print(RHExp{expression=a}))]
+SymTable: dictionary={a=RefValue(0int), counter=1}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={1=0}, newFree=2}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}]
+SymTable: dictionary={a=RefValue(0int), counter=2}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=2}
+-------------------------
+14
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(0int), counter=1}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=2}
+-------------------------
+15
+
+ExeStack: stack=[(HeapAllocStmt{id='a', expression=counter} print(RHExp{expression=a}))]
+SymTable: dictionary={a=RefValue(0int), counter=1}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=2}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, (statements.ForkStatement@300ffa5d counter=counter+1)]
+SymTable: dictionary={a=RefValue(0int), counter=2}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=2}
+-------------------------
+15
+
+ExeStack: stack=[print(RHExp{expression=a}), HeapAllocStmt{id='a', expression=counter}]
+SymTable: dictionary={a=RefValue(0int), counter=1}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=2}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, (statements.ForkStatement@300ffa5d counter=counter+1)]
+SymTable: dictionary={a=RefValue(0int), counter=2}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=2}
+-------------------------
+15
+
+ExeStack: stack=[print(RHExp{expression=a}), HeapAllocStmt{id='a', expression=counter}]
+SymTable: dictionary={a=RefValue(0int), counter=1}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=2}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1, statements.ForkStatement@300ffa5d]
+SymTable: dictionary={a=RefValue(0int), counter=2}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={2=1}, newFree=3}
+-------------------------
+15
+
+ExeStack: stack=[print(RHExp{expression=a})]
+SymTable: dictionary={a=RefValue(2int), counter=1}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={2=1}, newFree=3}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1, statements.ForkStatement@300ffa5d]
+SymTable: dictionary={a=RefValue(0int), counter=2}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={2=1}, newFree=3}
+-------------------------
+15
+
+ExeStack: stack=[print(RHExp{expression=a})]
+SymTable: dictionary={a=RefValue(2int), counter=1}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={2=1}, newFree=3}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1]
+SymTable: dictionary={a=RefValue(0int), counter=2}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={2=1}, newFree=3}
+-------------------------
+15
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(2int), counter=1}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={2=1}, newFree=3}
+-------------------------
+16
+
+ExeStack: stack=[statements.ForkStatement@5b80350b]
+SymTable: dictionary={a=RefValue(0int), counter=2}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={2=1}, newFree=3}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1]
+SymTable: dictionary={a=RefValue(0int), counter=2}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={2=1}, newFree=3}
+-------------------------
+15
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(2int), counter=1}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={2=1}, newFree=3}
+-------------------------
+16
+
+ExeStack: stack=[statements.ForkStatement@5b80350b]
+SymTable: dictionary={a=RefValue(0int), counter=2}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={2=1}, newFree=3}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}]
+SymTable: dictionary={a=RefValue(0int), counter=3}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={2=1}, newFree=3}
+-------------------------
+16
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(0int), counter=2}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={2=1}, newFree=3}
+-------------------------
+17
+
+ExeStack: stack=[(HeapAllocStmt{id='a', expression=counter} print(RHExp{expression=a}))]
+SymTable: dictionary={a=RefValue(0int), counter=2}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={2=1}, newFree=3}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}]
+SymTable: dictionary={a=RefValue(0int), counter=3}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=3}
+-------------------------
+16
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(0int), counter=2}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=3}
+-------------------------
+17
+
+ExeStack: stack=[(HeapAllocStmt{id='a', expression=counter} print(RHExp{expression=a}))]
+SymTable: dictionary={a=RefValue(0int), counter=2}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=3}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, (statements.ForkStatement@300ffa5d counter=counter+1)]
+SymTable: dictionary={a=RefValue(0int), counter=3}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=3}
+-------------------------
+17
+
+ExeStack: stack=[print(RHExp{expression=a}), HeapAllocStmt{id='a', expression=counter}]
+SymTable: dictionary={a=RefValue(0int), counter=2}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=3}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, (statements.ForkStatement@300ffa5d counter=counter+1)]
+SymTable: dictionary={a=RefValue(0int), counter=3}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=3}
+-------------------------
+17
+
+ExeStack: stack=[print(RHExp{expression=a}), HeapAllocStmt{id='a', expression=counter}]
+SymTable: dictionary={a=RefValue(0int), counter=2}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=3}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1, statements.ForkStatement@300ffa5d]
+SymTable: dictionary={a=RefValue(0int), counter=3}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={3=2}, newFree=4}
+-------------------------
+17
+
+ExeStack: stack=[print(RHExp{expression=a})]
+SymTable: dictionary={a=RefValue(3int), counter=2}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={3=2}, newFree=4}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1, statements.ForkStatement@300ffa5d]
+SymTable: dictionary={a=RefValue(0int), counter=3}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={3=2}, newFree=4}
+-------------------------
+17
+
+ExeStack: stack=[print(RHExp{expression=a})]
+SymTable: dictionary={a=RefValue(3int), counter=2}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={3=2}, newFree=4}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1]
+SymTable: dictionary={a=RefValue(0int), counter=3}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={3=2}, newFree=4}
+-------------------------
+17
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(3int), counter=2}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={3=2}, newFree=4}
+-------------------------
+18
+
+ExeStack: stack=[statements.ForkStatement@5b80350b]
+SymTable: dictionary={a=RefValue(0int), counter=3}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={3=2}, newFree=4}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1]
+SymTable: dictionary={a=RefValue(0int), counter=3}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={3=2}, newFree=4}
+-------------------------
+17
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(3int), counter=2}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={3=2}, newFree=4}
+-------------------------
+18
+
+ExeStack: stack=[statements.ForkStatement@5b80350b]
+SymTable: dictionary={a=RefValue(0int), counter=3}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={3=2}, newFree=4}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}]
+SymTable: dictionary={a=RefValue(0int), counter=4}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={3=2}, newFree=4}
+-------------------------
+18
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(0int), counter=3}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={3=2}, newFree=4}
+-------------------------
+19
+
+ExeStack: stack=[(HeapAllocStmt{id='a', expression=counter} print(RHExp{expression=a}))]
+SymTable: dictionary={a=RefValue(0int), counter=3}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={3=2}, newFree=4}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}]
+SymTable: dictionary={a=RefValue(0int), counter=4}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=4}
+-------------------------
+18
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(0int), counter=3}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=4}
+-------------------------
+19
+
+ExeStack: stack=[(HeapAllocStmt{id='a', expression=counter} print(RHExp{expression=a}))]
+SymTable: dictionary={a=RefValue(0int), counter=3}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=4}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, (statements.ForkStatement@300ffa5d counter=counter+1)]
+SymTable: dictionary={a=RefValue(0int), counter=4}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=4}
+-------------------------
+19
+
+ExeStack: stack=[print(RHExp{expression=a}), HeapAllocStmt{id='a', expression=counter}]
+SymTable: dictionary={a=RefValue(0int), counter=3}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=4}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, (statements.ForkStatement@300ffa5d counter=counter+1)]
+SymTable: dictionary={a=RefValue(0int), counter=4}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=4}
+-------------------------
+19
+
+ExeStack: stack=[print(RHExp{expression=a}), HeapAllocStmt{id='a', expression=counter}]
+SymTable: dictionary={a=RefValue(0int), counter=3}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=4}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1, statements.ForkStatement@300ffa5d]
+SymTable: dictionary={a=RefValue(0int), counter=4}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={4=3}, newFree=5}
+-------------------------
+19
+
+ExeStack: stack=[print(RHExp{expression=a})]
+SymTable: dictionary={a=RefValue(4int), counter=3}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={4=3}, newFree=5}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1, statements.ForkStatement@300ffa5d]
+SymTable: dictionary={a=RefValue(0int), counter=4}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={4=3}, newFree=5}
+-------------------------
+19
+
+ExeStack: stack=[print(RHExp{expression=a})]
+SymTable: dictionary={a=RefValue(4int), counter=3}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={4=3}, newFree=5}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1]
+SymTable: dictionary={a=RefValue(0int), counter=4}
+Out: list=[0, 1, 2, 3]
+FileTable: []
+Heap: MyHeap{heap={4=3}, newFree=5}
+-------------------------
+19
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(4int), counter=3}
+Out: list=[0, 1, 2, 3]
+FileTable: []
+Heap: MyHeap{heap={4=3}, newFree=5}
+-------------------------
+20
+
+ExeStack: stack=[statements.ForkStatement@5b80350b]
+SymTable: dictionary={a=RefValue(0int), counter=4}
+Out: list=[0, 1, 2, 3]
+FileTable: []
+Heap: MyHeap{heap={4=3}, newFree=5}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1]
+SymTable: dictionary={a=RefValue(0int), counter=4}
+Out: list=[0, 1, 2, 3]
+FileTable: []
+Heap: MyHeap{heap={4=3}, newFree=5}
+-------------------------
+19
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(4int), counter=3}
+Out: list=[0, 1, 2, 3]
+FileTable: []
+Heap: MyHeap{heap={4=3}, newFree=5}
+-------------------------
+20
+
+ExeStack: stack=[statements.ForkStatement@5b80350b]
+SymTable: dictionary={a=RefValue(0int), counter=4}
+Out: list=[0, 1, 2, 3]
+FileTable: []
+Heap: MyHeap{heap={4=3}, newFree=5}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}]
+SymTable: dictionary={a=RefValue(0int), counter=5}
+Out: list=[0, 1, 2, 3]
+FileTable: []
+Heap: MyHeap{heap={4=3}, newFree=5}
+-------------------------
+20
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(0int), counter=4}
+Out: list=[0, 1, 2, 3]
+FileTable: []
+Heap: MyHeap{heap={4=3}, newFree=5}
+-------------------------
+21
+
+ExeStack: stack=[(HeapAllocStmt{id='a', expression=counter} print(RHExp{expression=a}))]
+SymTable: dictionary={a=RefValue(0int), counter=4}
+Out: list=[0, 1, 2, 3]
+FileTable: []
+Heap: MyHeap{heap={4=3}, newFree=5}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}]
+SymTable: dictionary={a=RefValue(0int), counter=5}
+Out: list=[0, 1, 2, 3]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=5}
+-------------------------
+20
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(0int), counter=4}
+Out: list=[0, 1, 2, 3]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=5}
+-------------------------
+21
+
+ExeStack: stack=[(HeapAllocStmt{id='a', expression=counter} print(RHExp{expression=a}))]
+SymTable: dictionary={a=RefValue(0int), counter=4}
+Out: list=[0, 1, 2, 3]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=5}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, (statements.ForkStatement@300ffa5d counter=counter+1)]
+SymTable: dictionary={a=RefValue(0int), counter=5}
+Out: list=[0, 1, 2, 3]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=5}
+-------------------------
+21
+
+ExeStack: stack=[print(RHExp{expression=a}), HeapAllocStmt{id='a', expression=counter}]
+SymTable: dictionary={a=RefValue(0int), counter=4}
+Out: list=[0, 1, 2, 3]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=5}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, (statements.ForkStatement@300ffa5d counter=counter+1)]
+SymTable: dictionary={a=RefValue(0int), counter=5}
+Out: list=[0, 1, 2, 3]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=5}
+-------------------------
+21
+
+ExeStack: stack=[print(RHExp{expression=a}), HeapAllocStmt{id='a', expression=counter}]
+SymTable: dictionary={a=RefValue(0int), counter=4}
+Out: list=[0, 1, 2, 3]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=5}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1, statements.ForkStatement@300ffa5d]
+SymTable: dictionary={a=RefValue(0int), counter=5}
+Out: list=[0, 1, 2, 3]
+FileTable: []
+Heap: MyHeap{heap={5=4}, newFree=6}
+-------------------------
+21
+
+ExeStack: stack=[print(RHExp{expression=a})]
+SymTable: dictionary={a=RefValue(5int), counter=4}
+Out: list=[0, 1, 2, 3]
+FileTable: []
+Heap: MyHeap{heap={5=4}, newFree=6}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1, statements.ForkStatement@300ffa5d]
+SymTable: dictionary={a=RefValue(0int), counter=5}
+Out: list=[0, 1, 2, 3]
+FileTable: []
+Heap: MyHeap{heap={5=4}, newFree=6}
+-------------------------
+21
+
+ExeStack: stack=[print(RHExp{expression=a})]
+SymTable: dictionary={a=RefValue(5int), counter=4}
+Out: list=[0, 1, 2, 3]
+FileTable: []
+Heap: MyHeap{heap={5=4}, newFree=6}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1]
+SymTable: dictionary={a=RefValue(0int), counter=5}
+Out: list=[0, 1, 2, 3, 4]
+FileTable: []
+Heap: MyHeap{heap={5=4}, newFree=6}
+-------------------------
+21
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(5int), counter=4}
+Out: list=[0, 1, 2, 3, 4]
+FileTable: []
+Heap: MyHeap{heap={5=4}, newFree=6}
+-------------------------
+22
+
+ExeStack: stack=[statements.ForkStatement@5b80350b]
+SymTable: dictionary={a=RefValue(0int), counter=5}
+Out: list=[0, 1, 2, 3, 4]
+FileTable: []
+Heap: MyHeap{heap={5=4}, newFree=6}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1]
+SymTable: dictionary={a=RefValue(0int), counter=5}
+Out: list=[0, 1, 2, 3, 4]
+FileTable: []
+Heap: MyHeap{heap={5=4}, newFree=6}
+-------------------------
+21
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(5int), counter=4}
+Out: list=[0, 1, 2, 3, 4]
+FileTable: []
+Heap: MyHeap{heap={5=4}, newFree=6}
+-------------------------
+22
+
+ExeStack: stack=[statements.ForkStatement@5b80350b]
+SymTable: dictionary={a=RefValue(0int), counter=5}
+Out: list=[0, 1, 2, 3, 4]
+FileTable: []
+Heap: MyHeap{heap={5=4}, newFree=6}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}]
+SymTable: dictionary={a=RefValue(0int), counter=6}
+Out: list=[0, 1, 2, 3, 4]
+FileTable: []
+Heap: MyHeap{heap={5=4}, newFree=6}
+-------------------------
+22
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(0int), counter=5}
+Out: list=[0, 1, 2, 3, 4]
+FileTable: []
+Heap: MyHeap{heap={5=4}, newFree=6}
+-------------------------
+23
+
+ExeStack: stack=[(HeapAllocStmt{id='a', expression=counter} print(RHExp{expression=a}))]
+SymTable: dictionary={a=RefValue(0int), counter=5}
+Out: list=[0, 1, 2, 3, 4]
+FileTable: []
+Heap: MyHeap{heap={5=4}, newFree=6}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}]
+SymTable: dictionary={a=RefValue(0int), counter=6}
+Out: list=[0, 1, 2, 3, 4]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=6}
+-------------------------
+22
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(0int), counter=5}
+Out: list=[0, 1, 2, 3, 4]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=6}
+-------------------------
+23
+
+ExeStack: stack=[(HeapAllocStmt{id='a', expression=counter} print(RHExp{expression=a}))]
+SymTable: dictionary={a=RefValue(0int), counter=5}
+Out: list=[0, 1, 2, 3, 4]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=6}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, (statements.ForkStatement@300ffa5d counter=counter+1)]
+SymTable: dictionary={a=RefValue(0int), counter=6}
+Out: list=[0, 1, 2, 3, 4]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=6}
+-------------------------
+23
+
+ExeStack: stack=[print(RHExp{expression=a}), HeapAllocStmt{id='a', expression=counter}]
+SymTable: dictionary={a=RefValue(0int), counter=5}
+Out: list=[0, 1, 2, 3, 4]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=6}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, (statements.ForkStatement@300ffa5d counter=counter+1)]
+SymTable: dictionary={a=RefValue(0int), counter=6}
+Out: list=[0, 1, 2, 3, 4]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=6}
+-------------------------
+23
+
+ExeStack: stack=[print(RHExp{expression=a}), HeapAllocStmt{id='a', expression=counter}]
+SymTable: dictionary={a=RefValue(0int), counter=5}
+Out: list=[0, 1, 2, 3, 4]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=6}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1, statements.ForkStatement@300ffa5d]
+SymTable: dictionary={a=RefValue(0int), counter=6}
+Out: list=[0, 1, 2, 3, 4]
+FileTable: []
+Heap: MyHeap{heap={6=5}, newFree=7}
+-------------------------
+23
+
+ExeStack: stack=[print(RHExp{expression=a})]
+SymTable: dictionary={a=RefValue(6int), counter=5}
+Out: list=[0, 1, 2, 3, 4]
+FileTable: []
+Heap: MyHeap{heap={6=5}, newFree=7}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1, statements.ForkStatement@300ffa5d]
+SymTable: dictionary={a=RefValue(0int), counter=6}
+Out: list=[0, 1, 2, 3, 4]
+FileTable: []
+Heap: MyHeap{heap={6=5}, newFree=7}
+-------------------------
+23
+
+ExeStack: stack=[print(RHExp{expression=a})]
+SymTable: dictionary={a=RefValue(6int), counter=5}
+Out: list=[0, 1, 2, 3, 4]
+FileTable: []
+Heap: MyHeap{heap={6=5}, newFree=7}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1]
+SymTable: dictionary={a=RefValue(0int), counter=6}
+Out: list=[0, 1, 2, 3, 4, 5]
+FileTable: []
+Heap: MyHeap{heap={6=5}, newFree=7}
+-------------------------
+23
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(6int), counter=5}
+Out: list=[0, 1, 2, 3, 4, 5]
+FileTable: []
+Heap: MyHeap{heap={6=5}, newFree=7}
+-------------------------
+24
+
+ExeStack: stack=[statements.ForkStatement@5b80350b]
+SymTable: dictionary={a=RefValue(0int), counter=6}
+Out: list=[0, 1, 2, 3, 4, 5]
+FileTable: []
+Heap: MyHeap{heap={6=5}, newFree=7}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1]
+SymTable: dictionary={a=RefValue(0int), counter=6}
+Out: list=[0, 1, 2, 3, 4, 5]
+FileTable: []
+Heap: MyHeap{heap={6=5}, newFree=7}
+-------------------------
+23
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(6int), counter=5}
+Out: list=[0, 1, 2, 3, 4, 5]
+FileTable: []
+Heap: MyHeap{heap={6=5}, newFree=7}
+-------------------------
+24
+
+ExeStack: stack=[statements.ForkStatement@5b80350b]
+SymTable: dictionary={a=RefValue(0int), counter=6}
+Out: list=[0, 1, 2, 3, 4, 5]
+FileTable: []
+Heap: MyHeap{heap={6=5}, newFree=7}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}]
+SymTable: dictionary={a=RefValue(0int), counter=7}
+Out: list=[0, 1, 2, 3, 4, 5]
+FileTable: []
+Heap: MyHeap{heap={6=5}, newFree=7}
+-------------------------
+24
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(0int), counter=6}
+Out: list=[0, 1, 2, 3, 4, 5]
+FileTable: []
+Heap: MyHeap{heap={6=5}, newFree=7}
+-------------------------
+25
+
+ExeStack: stack=[(HeapAllocStmt{id='a', expression=counter} print(RHExp{expression=a}))]
+SymTable: dictionary={a=RefValue(0int), counter=6}
+Out: list=[0, 1, 2, 3, 4, 5]
+FileTable: []
+Heap: MyHeap{heap={6=5}, newFree=7}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}]
+SymTable: dictionary={a=RefValue(0int), counter=7}
+Out: list=[0, 1, 2, 3, 4, 5]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=7}
+-------------------------
+24
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(0int), counter=6}
+Out: list=[0, 1, 2, 3, 4, 5]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=7}
+-------------------------
+25
+
+ExeStack: stack=[(HeapAllocStmt{id='a', expression=counter} print(RHExp{expression=a}))]
+SymTable: dictionary={a=RefValue(0int), counter=6}
+Out: list=[0, 1, 2, 3, 4, 5]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=7}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, (statements.ForkStatement@300ffa5d counter=counter+1)]
+SymTable: dictionary={a=RefValue(0int), counter=7}
+Out: list=[0, 1, 2, 3, 4, 5]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=7}
+-------------------------
+25
+
+ExeStack: stack=[print(RHExp{expression=a}), HeapAllocStmt{id='a', expression=counter}]
+SymTable: dictionary={a=RefValue(0int), counter=6}
+Out: list=[0, 1, 2, 3, 4, 5]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=7}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, (statements.ForkStatement@300ffa5d counter=counter+1)]
+SymTable: dictionary={a=RefValue(0int), counter=7}
+Out: list=[0, 1, 2, 3, 4, 5]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=7}
+-------------------------
+25
+
+ExeStack: stack=[print(RHExp{expression=a}), HeapAllocStmt{id='a', expression=counter}]
+SymTable: dictionary={a=RefValue(0int), counter=6}
+Out: list=[0, 1, 2, 3, 4, 5]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=7}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1, statements.ForkStatement@300ffa5d]
+SymTable: dictionary={a=RefValue(0int), counter=7}
+Out: list=[0, 1, 2, 3, 4, 5]
+FileTable: []
+Heap: MyHeap{heap={7=6}, newFree=8}
+-------------------------
+25
+
+ExeStack: stack=[print(RHExp{expression=a})]
+SymTable: dictionary={a=RefValue(7int), counter=6}
+Out: list=[0, 1, 2, 3, 4, 5]
+FileTable: []
+Heap: MyHeap{heap={7=6}, newFree=8}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1, statements.ForkStatement@300ffa5d]
+SymTable: dictionary={a=RefValue(0int), counter=7}
+Out: list=[0, 1, 2, 3, 4, 5]
+FileTable: []
+Heap: MyHeap{heap={7=6}, newFree=8}
+-------------------------
+25
+
+ExeStack: stack=[print(RHExp{expression=a})]
+SymTable: dictionary={a=RefValue(7int), counter=6}
+Out: list=[0, 1, 2, 3, 4, 5]
+FileTable: []
+Heap: MyHeap{heap={7=6}, newFree=8}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1]
+SymTable: dictionary={a=RefValue(0int), counter=7}
+Out: list=[0, 1, 2, 3, 4, 5, 6]
+FileTable: []
+Heap: MyHeap{heap={7=6}, newFree=8}
+-------------------------
+25
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(7int), counter=6}
+Out: list=[0, 1, 2, 3, 4, 5, 6]
+FileTable: []
+Heap: MyHeap{heap={7=6}, newFree=8}
+-------------------------
+26
+
+ExeStack: stack=[statements.ForkStatement@5b80350b]
+SymTable: dictionary={a=RefValue(0int), counter=7}
+Out: list=[0, 1, 2, 3, 4, 5, 6]
+FileTable: []
+Heap: MyHeap{heap={7=6}, newFree=8}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1]
+SymTable: dictionary={a=RefValue(0int), counter=7}
+Out: list=[0, 1, 2, 3, 4, 5, 6]
+FileTable: []
+Heap: MyHeap{heap={7=6}, newFree=8}
+-------------------------
+25
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(7int), counter=6}
+Out: list=[0, 1, 2, 3, 4, 5, 6]
+FileTable: []
+Heap: MyHeap{heap={7=6}, newFree=8}
+-------------------------
+26
+
+ExeStack: stack=[statements.ForkStatement@5b80350b]
+SymTable: dictionary={a=RefValue(0int), counter=7}
+Out: list=[0, 1, 2, 3, 4, 5, 6]
+FileTable: []
+Heap: MyHeap{heap={7=6}, newFree=8}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}]
+SymTable: dictionary={a=RefValue(0int), counter=8}
+Out: list=[0, 1, 2, 3, 4, 5, 6]
+FileTable: []
+Heap: MyHeap{heap={7=6}, newFree=8}
+-------------------------
+26
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(0int), counter=7}
+Out: list=[0, 1, 2, 3, 4, 5, 6]
+FileTable: []
+Heap: MyHeap{heap={7=6}, newFree=8}
+-------------------------
+27
+
+ExeStack: stack=[(HeapAllocStmt{id='a', expression=counter} print(RHExp{expression=a}))]
+SymTable: dictionary={a=RefValue(0int), counter=7}
+Out: list=[0, 1, 2, 3, 4, 5, 6]
+FileTable: []
+Heap: MyHeap{heap={7=6}, newFree=8}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}]
+SymTable: dictionary={a=RefValue(0int), counter=8}
+Out: list=[0, 1, 2, 3, 4, 5, 6]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=8}
+-------------------------
+26
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(0int), counter=7}
+Out: list=[0, 1, 2, 3, 4, 5, 6]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=8}
+-------------------------
+27
+
+ExeStack: stack=[(HeapAllocStmt{id='a', expression=counter} print(RHExp{expression=a}))]
+SymTable: dictionary={a=RefValue(0int), counter=7}
+Out: list=[0, 1, 2, 3, 4, 5, 6]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=8}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, (statements.ForkStatement@300ffa5d counter=counter+1)]
+SymTable: dictionary={a=RefValue(0int), counter=8}
+Out: list=[0, 1, 2, 3, 4, 5, 6]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=8}
+-------------------------
+27
+
+ExeStack: stack=[print(RHExp{expression=a}), HeapAllocStmt{id='a', expression=counter}]
+SymTable: dictionary={a=RefValue(0int), counter=7}
+Out: list=[0, 1, 2, 3, 4, 5, 6]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=8}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, (statements.ForkStatement@300ffa5d counter=counter+1)]
+SymTable: dictionary={a=RefValue(0int), counter=8}
+Out: list=[0, 1, 2, 3, 4, 5, 6]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=8}
+-------------------------
+27
+
+ExeStack: stack=[print(RHExp{expression=a}), HeapAllocStmt{id='a', expression=counter}]
+SymTable: dictionary={a=RefValue(0int), counter=7}
+Out: list=[0, 1, 2, 3, 4, 5, 6]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=8}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1, statements.ForkStatement@300ffa5d]
+SymTable: dictionary={a=RefValue(0int), counter=8}
+Out: list=[0, 1, 2, 3, 4, 5, 6]
+FileTable: []
+Heap: MyHeap{heap={8=7}, newFree=9}
+-------------------------
+27
+
+ExeStack: stack=[print(RHExp{expression=a})]
+SymTable: dictionary={a=RefValue(8int), counter=7}
+Out: list=[0, 1, 2, 3, 4, 5, 6]
+FileTable: []
+Heap: MyHeap{heap={8=7}, newFree=9}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1, statements.ForkStatement@300ffa5d]
+SymTable: dictionary={a=RefValue(0int), counter=8}
+Out: list=[0, 1, 2, 3, 4, 5, 6]
+FileTable: []
+Heap: MyHeap{heap={8=7}, newFree=9}
+-------------------------
+27
+
+ExeStack: stack=[print(RHExp{expression=a})]
+SymTable: dictionary={a=RefValue(8int), counter=7}
+Out: list=[0, 1, 2, 3, 4, 5, 6]
+FileTable: []
+Heap: MyHeap{heap={8=7}, newFree=9}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1]
+SymTable: dictionary={a=RefValue(0int), counter=8}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7]
+FileTable: []
+Heap: MyHeap{heap={8=7}, newFree=9}
+-------------------------
+27
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(8int), counter=7}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7]
+FileTable: []
+Heap: MyHeap{heap={8=7}, newFree=9}
+-------------------------
+28
+
+ExeStack: stack=[statements.ForkStatement@5b80350b]
+SymTable: dictionary={a=RefValue(0int), counter=8}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7]
+FileTable: []
+Heap: MyHeap{heap={8=7}, newFree=9}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1]
+SymTable: dictionary={a=RefValue(0int), counter=8}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7]
+FileTable: []
+Heap: MyHeap{heap={8=7}, newFree=9}
+-------------------------
+27
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(8int), counter=7}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7]
+FileTable: []
+Heap: MyHeap{heap={8=7}, newFree=9}
+-------------------------
+28
+
+ExeStack: stack=[statements.ForkStatement@5b80350b]
+SymTable: dictionary={a=RefValue(0int), counter=8}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7]
+FileTable: []
+Heap: MyHeap{heap={8=7}, newFree=9}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}]
+SymTable: dictionary={a=RefValue(0int), counter=9}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7]
+FileTable: []
+Heap: MyHeap{heap={8=7}, newFree=9}
+-------------------------
+28
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(0int), counter=8}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7]
+FileTable: []
+Heap: MyHeap{heap={8=7}, newFree=9}
+-------------------------
+29
+
+ExeStack: stack=[(HeapAllocStmt{id='a', expression=counter} print(RHExp{expression=a}))]
+SymTable: dictionary={a=RefValue(0int), counter=8}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7]
+FileTable: []
+Heap: MyHeap{heap={8=7}, newFree=9}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}]
+SymTable: dictionary={a=RefValue(0int), counter=9}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=9}
+-------------------------
+28
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(0int), counter=8}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=9}
+-------------------------
+29
+
+ExeStack: stack=[(HeapAllocStmt{id='a', expression=counter} print(RHExp{expression=a}))]
+SymTable: dictionary={a=RefValue(0int), counter=8}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=9}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, (statements.ForkStatement@300ffa5d counter=counter+1)]
+SymTable: dictionary={a=RefValue(0int), counter=9}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=9}
+-------------------------
+29
+
+ExeStack: stack=[print(RHExp{expression=a}), HeapAllocStmt{id='a', expression=counter}]
+SymTable: dictionary={a=RefValue(0int), counter=8}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=9}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, (statements.ForkStatement@300ffa5d counter=counter+1)]
+SymTable: dictionary={a=RefValue(0int), counter=9}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=9}
+-------------------------
+29
+
+ExeStack: stack=[print(RHExp{expression=a}), HeapAllocStmt{id='a', expression=counter}]
+SymTable: dictionary={a=RefValue(0int), counter=8}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=9}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1, statements.ForkStatement@300ffa5d]
+SymTable: dictionary={a=RefValue(0int), counter=9}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7]
+FileTable: []
+Heap: MyHeap{heap={9=8}, newFree=10}
+-------------------------
+29
+
+ExeStack: stack=[print(RHExp{expression=a})]
+SymTable: dictionary={a=RefValue(9int), counter=8}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7]
+FileTable: []
+Heap: MyHeap{heap={9=8}, newFree=10}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1, statements.ForkStatement@300ffa5d]
+SymTable: dictionary={a=RefValue(0int), counter=9}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7]
+FileTable: []
+Heap: MyHeap{heap={9=8}, newFree=10}
+-------------------------
+29
+
+ExeStack: stack=[print(RHExp{expression=a})]
+SymTable: dictionary={a=RefValue(9int), counter=8}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7]
+FileTable: []
+Heap: MyHeap{heap={9=8}, newFree=10}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1]
+SymTable: dictionary={a=RefValue(0int), counter=9}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7, 8]
+FileTable: []
+Heap: MyHeap{heap={9=8}, newFree=10}
+-------------------------
+29
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(9int), counter=8}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7, 8]
+FileTable: []
+Heap: MyHeap{heap={9=8}, newFree=10}
+-------------------------
+30
+
+ExeStack: stack=[statements.ForkStatement@5b80350b]
+SymTable: dictionary={a=RefValue(0int), counter=9}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7, 8]
+FileTable: []
+Heap: MyHeap{heap={9=8}, newFree=10}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1]
+SymTable: dictionary={a=RefValue(0int), counter=9}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7, 8]
+FileTable: []
+Heap: MyHeap{heap={9=8}, newFree=10}
+-------------------------
+29
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(9int), counter=8}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7, 8]
+FileTable: []
+Heap: MyHeap{heap={9=8}, newFree=10}
+-------------------------
+30
+
+ExeStack: stack=[statements.ForkStatement@5b80350b]
+SymTable: dictionary={a=RefValue(0int), counter=9}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7, 8]
+FileTable: []
+Heap: MyHeap{heap={9=8}, newFree=10}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}]
+SymTable: dictionary={a=RefValue(0int), counter=10}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7, 8]
+FileTable: []
+Heap: MyHeap{heap={9=8}, newFree=10}
+-------------------------
+30
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(0int), counter=9}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7, 8]
+FileTable: []
+Heap: MyHeap{heap={9=8}, newFree=10}
+-------------------------
+31
+
+ExeStack: stack=[(HeapAllocStmt{id='a', expression=counter} print(RHExp{expression=a}))]
+SymTable: dictionary={a=RefValue(0int), counter=9}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7, 8]
+FileTable: []
+Heap: MyHeap{heap={9=8}, newFree=10}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}]
+SymTable: dictionary={a=RefValue(0int), counter=10}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7, 8]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=10}
+-------------------------
+30
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(0int), counter=9}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7, 8]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=10}
+-------------------------
+31
+
+ExeStack: stack=[(HeapAllocStmt{id='a', expression=counter} print(RHExp{expression=a}))]
+SymTable: dictionary={a=RefValue(0int), counter=9}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7, 8]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=10}
+-------------------------
+11
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(0int), counter=10}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7, 8]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=10}
+-------------------------
+31
+
+ExeStack: stack=[print(RHExp{expression=a}), HeapAllocStmt{id='a', expression=counter}]
+SymTable: dictionary={a=RefValue(0int), counter=9}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7, 8]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=10}
+-------------------------
+11
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(0int), counter=10}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7, 8]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=10}
+-------------------------
+31
+
+ExeStack: stack=[print(RHExp{expression=a}), HeapAllocStmt{id='a', expression=counter}]
+SymTable: dictionary={a=RefValue(0int), counter=9}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7, 8]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=10}
+-------------------------
+31
+
+ExeStack: stack=[print(RHExp{expression=a})]
+SymTable: dictionary={a=RefValue(10int), counter=9}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7, 8]
+FileTable: []
+Heap: MyHeap{heap={10=9}, newFree=11}
+-------------------------
+31
+
+ExeStack: stack=[print(RHExp{expression=a})]
+SymTable: dictionary={a=RefValue(10int), counter=9}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7, 8]
+FileTable: []
+Heap: MyHeap{heap={10=9}, newFree=11}
+-------------------------
+31
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(10int), counter=9}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+FileTable: []
+Heap: MyHeap{heap={10=9}, newFree=11}
+-------------------------
+31
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(10int), counter=9}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+FileTable: []
+Heap: MyHeap{heap={10=9}, newFree=11}
+-------------------------
+11
+
+ExeStack: stack=[(int counter; WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}), Ref(int) a;]
+SymTable: dictionary={}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+11
+
+ExeStack: stack=[(int counter; WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}), Ref(int) a;]
+SymTable: dictionary={}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+11
+
+ExeStack: stack=[(int counter; WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)})]
+SymTable: dictionary={a=RefValue(0int)}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+11
+
+ExeStack: stack=[(int counter; WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)})]
+SymTable: dictionary={a=RefValue(0int)}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, int counter;]
+SymTable: dictionary={a=RefValue(0int)}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, int counter;]
+SymTable: dictionary={a=RefValue(0int)}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}]
+SymTable: dictionary={a=RefValue(0int), counter=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}]
+SymTable: dictionary={a=RefValue(0int), counter=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, (statements.ForkStatement@300ffa5d counter=counter+1)]
+SymTable: dictionary={a=RefValue(0int), counter=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, (statements.ForkStatement@300ffa5d counter=counter+1)]
+SymTable: dictionary={a=RefValue(0int), counter=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1, statements.ForkStatement@300ffa5d]
+SymTable: dictionary={a=RefValue(0int), counter=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1, statements.ForkStatement@300ffa5d]
+SymTable: dictionary={a=RefValue(0int), counter=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1]
+SymTable: dictionary={a=RefValue(0int), counter=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+13
+
+ExeStack: stack=[statements.ForkStatement@32a1bec0]
+SymTable: dictionary={a=RefValue(0int), counter=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1]
+SymTable: dictionary={a=RefValue(0int), counter=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+13
+
+ExeStack: stack=[statements.ForkStatement@32a1bec0]
+SymTable: dictionary={a=RefValue(0int), counter=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}]
+SymTable: dictionary={a=RefValue(0int), counter=1}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+13
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(0int), counter=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+14
+
+ExeStack: stack=[(HeapAllocStmt{id='a', expression=counter} print(RHExp{expression=a}))]
+SymTable: dictionary={a=RefValue(0int), counter=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}]
+SymTable: dictionary={a=RefValue(0int), counter=1}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+13
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(0int), counter=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+14
+
+ExeStack: stack=[(HeapAllocStmt{id='a', expression=counter} print(RHExp{expression=a}))]
+SymTable: dictionary={a=RefValue(0int), counter=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, (statements.ForkStatement@300ffa5d counter=counter+1)]
+SymTable: dictionary={a=RefValue(0int), counter=1}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+14
+
+ExeStack: stack=[print(RHExp{expression=a}), HeapAllocStmt{id='a', expression=counter}]
+SymTable: dictionary={a=RefValue(0int), counter=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, (statements.ForkStatement@300ffa5d counter=counter+1)]
+SymTable: dictionary={a=RefValue(0int), counter=1}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+14
+
+ExeStack: stack=[print(RHExp{expression=a}), HeapAllocStmt{id='a', expression=counter}]
+SymTable: dictionary={a=RefValue(0int), counter=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1, statements.ForkStatement@300ffa5d]
+SymTable: dictionary={a=RefValue(0int), counter=1}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={1=0}, newFree=2}
+-------------------------
+14
+
+ExeStack: stack=[print(RHExp{expression=a})]
+SymTable: dictionary={a=RefValue(1int), counter=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={1=0}, newFree=2}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1, statements.ForkStatement@300ffa5d]
+SymTable: dictionary={a=RefValue(0int), counter=1}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={1=0}, newFree=2}
+-------------------------
+14
+
+ExeStack: stack=[print(RHExp{expression=a})]
+SymTable: dictionary={a=RefValue(1int), counter=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={1=0}, newFree=2}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1]
+SymTable: dictionary={a=RefValue(0int), counter=1}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={1=0}, newFree=2}
+-------------------------
+14
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(1int), counter=0}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={1=0}, newFree=2}
+-------------------------
+15
+
+ExeStack: stack=[statements.ForkStatement@32a1bec0]
+SymTable: dictionary={a=RefValue(0int), counter=1}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={1=0}, newFree=2}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1]
+SymTable: dictionary={a=RefValue(0int), counter=1}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={1=0}, newFree=2}
+-------------------------
+14
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(1int), counter=0}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={1=0}, newFree=2}
+-------------------------
+15
+
+ExeStack: stack=[statements.ForkStatement@32a1bec0]
+SymTable: dictionary={a=RefValue(0int), counter=1}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={1=0}, newFree=2}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}]
+SymTable: dictionary={a=RefValue(0int), counter=2}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={1=0}, newFree=2}
+-------------------------
+15
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(0int), counter=1}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={1=0}, newFree=2}
+-------------------------
+16
+
+ExeStack: stack=[(HeapAllocStmt{id='a', expression=counter} print(RHExp{expression=a}))]
+SymTable: dictionary={a=RefValue(0int), counter=1}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={1=0}, newFree=2}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}]
+SymTable: dictionary={a=RefValue(0int), counter=2}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=2}
+-------------------------
+15
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(0int), counter=1}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=2}
+-------------------------
+16
+
+ExeStack: stack=[(HeapAllocStmt{id='a', expression=counter} print(RHExp{expression=a}))]
+SymTable: dictionary={a=RefValue(0int), counter=1}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=2}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, (statements.ForkStatement@300ffa5d counter=counter+1)]
+SymTable: dictionary={a=RefValue(0int), counter=2}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=2}
+-------------------------
+16
+
+ExeStack: stack=[print(RHExp{expression=a}), HeapAllocStmt{id='a', expression=counter}]
+SymTable: dictionary={a=RefValue(0int), counter=1}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=2}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, (statements.ForkStatement@300ffa5d counter=counter+1)]
+SymTable: dictionary={a=RefValue(0int), counter=2}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=2}
+-------------------------
+16
+
+ExeStack: stack=[print(RHExp{expression=a}), HeapAllocStmt{id='a', expression=counter}]
+SymTable: dictionary={a=RefValue(0int), counter=1}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=2}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1, statements.ForkStatement@300ffa5d]
+SymTable: dictionary={a=RefValue(0int), counter=2}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={2=1}, newFree=3}
+-------------------------
+16
+
+ExeStack: stack=[print(RHExp{expression=a})]
+SymTable: dictionary={a=RefValue(2int), counter=1}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={2=1}, newFree=3}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1, statements.ForkStatement@300ffa5d]
+SymTable: dictionary={a=RefValue(0int), counter=2}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={2=1}, newFree=3}
+-------------------------
+16
+
+ExeStack: stack=[print(RHExp{expression=a})]
+SymTable: dictionary={a=RefValue(2int), counter=1}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={2=1}, newFree=3}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1]
+SymTable: dictionary={a=RefValue(0int), counter=2}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={2=1}, newFree=3}
+-------------------------
+16
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(2int), counter=1}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={2=1}, newFree=3}
+-------------------------
+17
+
+ExeStack: stack=[statements.ForkStatement@32a1bec0]
+SymTable: dictionary={a=RefValue(0int), counter=2}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={2=1}, newFree=3}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1]
+SymTable: dictionary={a=RefValue(0int), counter=2}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={2=1}, newFree=3}
+-------------------------
+16
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(2int), counter=1}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={2=1}, newFree=3}
+-------------------------
+17
+
+ExeStack: stack=[statements.ForkStatement@32a1bec0]
+SymTable: dictionary={a=RefValue(0int), counter=2}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={2=1}, newFree=3}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}]
+SymTable: dictionary={a=RefValue(0int), counter=3}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={2=1}, newFree=3}
+-------------------------
+17
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(0int), counter=2}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={2=1}, newFree=3}
+-------------------------
+18
+
+ExeStack: stack=[(HeapAllocStmt{id='a', expression=counter} print(RHExp{expression=a}))]
+SymTable: dictionary={a=RefValue(0int), counter=2}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={2=1}, newFree=3}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}]
+SymTable: dictionary={a=RefValue(0int), counter=3}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=3}
+-------------------------
+17
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(0int), counter=2}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=3}
+-------------------------
+18
+
+ExeStack: stack=[(HeapAllocStmt{id='a', expression=counter} print(RHExp{expression=a}))]
+SymTable: dictionary={a=RefValue(0int), counter=2}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=3}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, (statements.ForkStatement@300ffa5d counter=counter+1)]
+SymTable: dictionary={a=RefValue(0int), counter=3}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=3}
+-------------------------
+18
+
+ExeStack: stack=[print(RHExp{expression=a}), HeapAllocStmt{id='a', expression=counter}]
+SymTable: dictionary={a=RefValue(0int), counter=2}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=3}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, (statements.ForkStatement@300ffa5d counter=counter+1)]
+SymTable: dictionary={a=RefValue(0int), counter=3}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=3}
+-------------------------
+18
+
+ExeStack: stack=[print(RHExp{expression=a}), HeapAllocStmt{id='a', expression=counter}]
+SymTable: dictionary={a=RefValue(0int), counter=2}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=3}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1, statements.ForkStatement@300ffa5d]
+SymTable: dictionary={a=RefValue(0int), counter=3}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={3=2}, newFree=4}
+-------------------------
+18
+
+ExeStack: stack=[print(RHExp{expression=a})]
+SymTable: dictionary={a=RefValue(3int), counter=2}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={3=2}, newFree=4}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1, statements.ForkStatement@300ffa5d]
+SymTable: dictionary={a=RefValue(0int), counter=3}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={3=2}, newFree=4}
+-------------------------
+18
+
+ExeStack: stack=[print(RHExp{expression=a})]
+SymTable: dictionary={a=RefValue(3int), counter=2}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={3=2}, newFree=4}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1]
+SymTable: dictionary={a=RefValue(0int), counter=3}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={3=2}, newFree=4}
+-------------------------
+18
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(3int), counter=2}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={3=2}, newFree=4}
+-------------------------
+19
+
+ExeStack: stack=[statements.ForkStatement@32a1bec0]
+SymTable: dictionary={a=RefValue(0int), counter=3}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={3=2}, newFree=4}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1]
+SymTable: dictionary={a=RefValue(0int), counter=3}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={3=2}, newFree=4}
+-------------------------
+18
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(3int), counter=2}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={3=2}, newFree=4}
+-------------------------
+19
+
+ExeStack: stack=[statements.ForkStatement@32a1bec0]
+SymTable: dictionary={a=RefValue(0int), counter=3}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={3=2}, newFree=4}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}]
+SymTable: dictionary={a=RefValue(0int), counter=4}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={3=2}, newFree=4}
+-------------------------
+19
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(0int), counter=3}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={3=2}, newFree=4}
+-------------------------
+20
+
+ExeStack: stack=[(HeapAllocStmt{id='a', expression=counter} print(RHExp{expression=a}))]
+SymTable: dictionary={a=RefValue(0int), counter=3}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={3=2}, newFree=4}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}]
+SymTable: dictionary={a=RefValue(0int), counter=4}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=4}
+-------------------------
+19
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(0int), counter=3}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=4}
+-------------------------
+20
+
+ExeStack: stack=[(HeapAllocStmt{id='a', expression=counter} print(RHExp{expression=a}))]
+SymTable: dictionary={a=RefValue(0int), counter=3}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=4}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, (statements.ForkStatement@300ffa5d counter=counter+1)]
+SymTable: dictionary={a=RefValue(0int), counter=4}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=4}
+-------------------------
+20
+
+ExeStack: stack=[print(RHExp{expression=a}), HeapAllocStmt{id='a', expression=counter}]
+SymTable: dictionary={a=RefValue(0int), counter=3}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=4}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, (statements.ForkStatement@300ffa5d counter=counter+1)]
+SymTable: dictionary={a=RefValue(0int), counter=4}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=4}
+-------------------------
+20
+
+ExeStack: stack=[print(RHExp{expression=a}), HeapAllocStmt{id='a', expression=counter}]
+SymTable: dictionary={a=RefValue(0int), counter=3}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=4}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1, statements.ForkStatement@300ffa5d]
+SymTable: dictionary={a=RefValue(0int), counter=4}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={4=3}, newFree=5}
+-------------------------
+20
+
+ExeStack: stack=[print(RHExp{expression=a})]
+SymTable: dictionary={a=RefValue(4int), counter=3}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={4=3}, newFree=5}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1, statements.ForkStatement@300ffa5d]
+SymTable: dictionary={a=RefValue(0int), counter=4}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={4=3}, newFree=5}
+-------------------------
+20
+
+ExeStack: stack=[print(RHExp{expression=a})]
+SymTable: dictionary={a=RefValue(4int), counter=3}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={4=3}, newFree=5}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1]
+SymTable: dictionary={a=RefValue(0int), counter=4}
+Out: list=[0, 1, 2, 3]
+FileTable: []
+Heap: MyHeap{heap={4=3}, newFree=5}
+-------------------------
+20
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(4int), counter=3}
+Out: list=[0, 1, 2, 3]
+FileTable: []
+Heap: MyHeap{heap={4=3}, newFree=5}
+-------------------------
+21
+
+ExeStack: stack=[statements.ForkStatement@32a1bec0]
+SymTable: dictionary={a=RefValue(0int), counter=4}
+Out: list=[0, 1, 2, 3]
+FileTable: []
+Heap: MyHeap{heap={4=3}, newFree=5}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1]
+SymTable: dictionary={a=RefValue(0int), counter=4}
+Out: list=[0, 1, 2, 3]
+FileTable: []
+Heap: MyHeap{heap={4=3}, newFree=5}
+-------------------------
+20
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(4int), counter=3}
+Out: list=[0, 1, 2, 3]
+FileTable: []
+Heap: MyHeap{heap={4=3}, newFree=5}
+-------------------------
+21
+
+ExeStack: stack=[statements.ForkStatement@32a1bec0]
+SymTable: dictionary={a=RefValue(0int), counter=4}
+Out: list=[0, 1, 2, 3]
+FileTable: []
+Heap: MyHeap{heap={4=3}, newFree=5}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}]
+SymTable: dictionary={a=RefValue(0int), counter=5}
+Out: list=[0, 1, 2, 3]
+FileTable: []
+Heap: MyHeap{heap={4=3}, newFree=5}
+-------------------------
+21
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(0int), counter=4}
+Out: list=[0, 1, 2, 3]
+FileTable: []
+Heap: MyHeap{heap={4=3}, newFree=5}
+-------------------------
+22
+
+ExeStack: stack=[(HeapAllocStmt{id='a', expression=counter} print(RHExp{expression=a}))]
+SymTable: dictionary={a=RefValue(0int), counter=4}
+Out: list=[0, 1, 2, 3]
+FileTable: []
+Heap: MyHeap{heap={4=3}, newFree=5}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}]
+SymTable: dictionary={a=RefValue(0int), counter=5}
+Out: list=[0, 1, 2, 3]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=5}
+-------------------------
+21
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(0int), counter=4}
+Out: list=[0, 1, 2, 3]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=5}
+-------------------------
+22
+
+ExeStack: stack=[(HeapAllocStmt{id='a', expression=counter} print(RHExp{expression=a}))]
+SymTable: dictionary={a=RefValue(0int), counter=4}
+Out: list=[0, 1, 2, 3]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=5}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, (statements.ForkStatement@300ffa5d counter=counter+1)]
+SymTable: dictionary={a=RefValue(0int), counter=5}
+Out: list=[0, 1, 2, 3]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=5}
+-------------------------
+22
+
+ExeStack: stack=[print(RHExp{expression=a}), HeapAllocStmt{id='a', expression=counter}]
+SymTable: dictionary={a=RefValue(0int), counter=4}
+Out: list=[0, 1, 2, 3]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=5}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, (statements.ForkStatement@300ffa5d counter=counter+1)]
+SymTable: dictionary={a=RefValue(0int), counter=5}
+Out: list=[0, 1, 2, 3]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=5}
+-------------------------
+22
+
+ExeStack: stack=[print(RHExp{expression=a}), HeapAllocStmt{id='a', expression=counter}]
+SymTable: dictionary={a=RefValue(0int), counter=4}
+Out: list=[0, 1, 2, 3]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=5}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1, statements.ForkStatement@300ffa5d]
+SymTable: dictionary={a=RefValue(0int), counter=5}
+Out: list=[0, 1, 2, 3]
+FileTable: []
+Heap: MyHeap{heap={5=4}, newFree=6}
+-------------------------
+22
+
+ExeStack: stack=[print(RHExp{expression=a})]
+SymTable: dictionary={a=RefValue(5int), counter=4}
+Out: list=[0, 1, 2, 3]
+FileTable: []
+Heap: MyHeap{heap={5=4}, newFree=6}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1, statements.ForkStatement@300ffa5d]
+SymTable: dictionary={a=RefValue(0int), counter=5}
+Out: list=[0, 1, 2, 3]
+FileTable: []
+Heap: MyHeap{heap={5=4}, newFree=6}
+-------------------------
+22
+
+ExeStack: stack=[print(RHExp{expression=a})]
+SymTable: dictionary={a=RefValue(5int), counter=4}
+Out: list=[0, 1, 2, 3]
+FileTable: []
+Heap: MyHeap{heap={5=4}, newFree=6}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1]
+SymTable: dictionary={a=RefValue(0int), counter=5}
+Out: list=[0, 1, 2, 3, 4]
+FileTable: []
+Heap: MyHeap{heap={5=4}, newFree=6}
+-------------------------
+22
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(5int), counter=4}
+Out: list=[0, 1, 2, 3, 4]
+FileTable: []
+Heap: MyHeap{heap={5=4}, newFree=6}
+-------------------------
+23
+
+ExeStack: stack=[statements.ForkStatement@32a1bec0]
+SymTable: dictionary={a=RefValue(0int), counter=5}
+Out: list=[0, 1, 2, 3, 4]
+FileTable: []
+Heap: MyHeap{heap={5=4}, newFree=6}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1]
+SymTable: dictionary={a=RefValue(0int), counter=5}
+Out: list=[0, 1, 2, 3, 4]
+FileTable: []
+Heap: MyHeap{heap={5=4}, newFree=6}
+-------------------------
+22
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(5int), counter=4}
+Out: list=[0, 1, 2, 3, 4]
+FileTable: []
+Heap: MyHeap{heap={5=4}, newFree=6}
+-------------------------
+23
+
+ExeStack: stack=[statements.ForkStatement@32a1bec0]
+SymTable: dictionary={a=RefValue(0int), counter=5}
+Out: list=[0, 1, 2, 3, 4]
+FileTable: []
+Heap: MyHeap{heap={5=4}, newFree=6}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}]
+SymTable: dictionary={a=RefValue(0int), counter=6}
+Out: list=[0, 1, 2, 3, 4]
+FileTable: []
+Heap: MyHeap{heap={5=4}, newFree=6}
+-------------------------
+23
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(0int), counter=5}
+Out: list=[0, 1, 2, 3, 4]
+FileTable: []
+Heap: MyHeap{heap={5=4}, newFree=6}
+-------------------------
+24
+
+ExeStack: stack=[(HeapAllocStmt{id='a', expression=counter} print(RHExp{expression=a}))]
+SymTable: dictionary={a=RefValue(0int), counter=5}
+Out: list=[0, 1, 2, 3, 4]
+FileTable: []
+Heap: MyHeap{heap={5=4}, newFree=6}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}]
+SymTable: dictionary={a=RefValue(0int), counter=6}
+Out: list=[0, 1, 2, 3, 4]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=6}
+-------------------------
+23
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(0int), counter=5}
+Out: list=[0, 1, 2, 3, 4]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=6}
+-------------------------
+24
+
+ExeStack: stack=[(HeapAllocStmt{id='a', expression=counter} print(RHExp{expression=a}))]
+SymTable: dictionary={a=RefValue(0int), counter=5}
+Out: list=[0, 1, 2, 3, 4]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=6}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, (statements.ForkStatement@300ffa5d counter=counter+1)]
+SymTable: dictionary={a=RefValue(0int), counter=6}
+Out: list=[0, 1, 2, 3, 4]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=6}
+-------------------------
+24
+
+ExeStack: stack=[print(RHExp{expression=a}), HeapAllocStmt{id='a', expression=counter}]
+SymTable: dictionary={a=RefValue(0int), counter=5}
+Out: list=[0, 1, 2, 3, 4]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=6}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, (statements.ForkStatement@300ffa5d counter=counter+1)]
+SymTable: dictionary={a=RefValue(0int), counter=6}
+Out: list=[0, 1, 2, 3, 4]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=6}
+-------------------------
+24
+
+ExeStack: stack=[print(RHExp{expression=a}), HeapAllocStmt{id='a', expression=counter}]
+SymTable: dictionary={a=RefValue(0int), counter=5}
+Out: list=[0, 1, 2, 3, 4]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=6}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1, statements.ForkStatement@300ffa5d]
+SymTable: dictionary={a=RefValue(0int), counter=6}
+Out: list=[0, 1, 2, 3, 4]
+FileTable: []
+Heap: MyHeap{heap={6=5}, newFree=7}
+-------------------------
+24
+
+ExeStack: stack=[print(RHExp{expression=a})]
+SymTable: dictionary={a=RefValue(6int), counter=5}
+Out: list=[0, 1, 2, 3, 4]
+FileTable: []
+Heap: MyHeap{heap={6=5}, newFree=7}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1, statements.ForkStatement@300ffa5d]
+SymTable: dictionary={a=RefValue(0int), counter=6}
+Out: list=[0, 1, 2, 3, 4]
+FileTable: []
+Heap: MyHeap{heap={6=5}, newFree=7}
+-------------------------
+24
+
+ExeStack: stack=[print(RHExp{expression=a})]
+SymTable: dictionary={a=RefValue(6int), counter=5}
+Out: list=[0, 1, 2, 3, 4]
+FileTable: []
+Heap: MyHeap{heap={6=5}, newFree=7}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1]
+SymTable: dictionary={a=RefValue(0int), counter=6}
+Out: list=[0, 1, 2, 3, 4, 5]
+FileTable: []
+Heap: MyHeap{heap={6=5}, newFree=7}
+-------------------------
+24
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(6int), counter=5}
+Out: list=[0, 1, 2, 3, 4, 5]
+FileTable: []
+Heap: MyHeap{heap={6=5}, newFree=7}
+-------------------------
+25
+
+ExeStack: stack=[statements.ForkStatement@32a1bec0]
+SymTable: dictionary={a=RefValue(0int), counter=6}
+Out: list=[0, 1, 2, 3, 4, 5]
+FileTable: []
+Heap: MyHeap{heap={6=5}, newFree=7}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1]
+SymTable: dictionary={a=RefValue(0int), counter=6}
+Out: list=[0, 1, 2, 3, 4, 5]
+FileTable: []
+Heap: MyHeap{heap={6=5}, newFree=7}
+-------------------------
+24
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(6int), counter=5}
+Out: list=[0, 1, 2, 3, 4, 5]
+FileTable: []
+Heap: MyHeap{heap={6=5}, newFree=7}
+-------------------------
+25
+
+ExeStack: stack=[statements.ForkStatement@32a1bec0]
+SymTable: dictionary={a=RefValue(0int), counter=6}
+Out: list=[0, 1, 2, 3, 4, 5]
+FileTable: []
+Heap: MyHeap{heap={6=5}, newFree=7}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}]
+SymTable: dictionary={a=RefValue(0int), counter=7}
+Out: list=[0, 1, 2, 3, 4, 5]
+FileTable: []
+Heap: MyHeap{heap={6=5}, newFree=7}
+-------------------------
+25
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(0int), counter=6}
+Out: list=[0, 1, 2, 3, 4, 5]
+FileTable: []
+Heap: MyHeap{heap={6=5}, newFree=7}
+-------------------------
+26
+
+ExeStack: stack=[(HeapAllocStmt{id='a', expression=counter} print(RHExp{expression=a}))]
+SymTable: dictionary={a=RefValue(0int), counter=6}
+Out: list=[0, 1, 2, 3, 4, 5]
+FileTable: []
+Heap: MyHeap{heap={6=5}, newFree=7}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}]
+SymTable: dictionary={a=RefValue(0int), counter=7}
+Out: list=[0, 1, 2, 3, 4, 5]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=7}
+-------------------------
+25
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(0int), counter=6}
+Out: list=[0, 1, 2, 3, 4, 5]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=7}
+-------------------------
+26
+
+ExeStack: stack=[(HeapAllocStmt{id='a', expression=counter} print(RHExp{expression=a}))]
+SymTable: dictionary={a=RefValue(0int), counter=6}
+Out: list=[0, 1, 2, 3, 4, 5]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=7}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, (statements.ForkStatement@300ffa5d counter=counter+1)]
+SymTable: dictionary={a=RefValue(0int), counter=7}
+Out: list=[0, 1, 2, 3, 4, 5]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=7}
+-------------------------
+26
+
+ExeStack: stack=[print(RHExp{expression=a}), HeapAllocStmt{id='a', expression=counter}]
+SymTable: dictionary={a=RefValue(0int), counter=6}
+Out: list=[0, 1, 2, 3, 4, 5]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=7}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, (statements.ForkStatement@300ffa5d counter=counter+1)]
+SymTable: dictionary={a=RefValue(0int), counter=7}
+Out: list=[0, 1, 2, 3, 4, 5]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=7}
+-------------------------
+26
+
+ExeStack: stack=[print(RHExp{expression=a}), HeapAllocStmt{id='a', expression=counter}]
+SymTable: dictionary={a=RefValue(0int), counter=6}
+Out: list=[0, 1, 2, 3, 4, 5]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=7}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1, statements.ForkStatement@300ffa5d]
+SymTable: dictionary={a=RefValue(0int), counter=7}
+Out: list=[0, 1, 2, 3, 4, 5]
+FileTable: []
+Heap: MyHeap{heap={7=6}, newFree=8}
+-------------------------
+26
+
+ExeStack: stack=[print(RHExp{expression=a})]
+SymTable: dictionary={a=RefValue(7int), counter=6}
+Out: list=[0, 1, 2, 3, 4, 5]
+FileTable: []
+Heap: MyHeap{heap={7=6}, newFree=8}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1, statements.ForkStatement@300ffa5d]
+SymTable: dictionary={a=RefValue(0int), counter=7}
+Out: list=[0, 1, 2, 3, 4, 5]
+FileTable: []
+Heap: MyHeap{heap={7=6}, newFree=8}
+-------------------------
+26
+
+ExeStack: stack=[print(RHExp{expression=a})]
+SymTable: dictionary={a=RefValue(7int), counter=6}
+Out: list=[0, 1, 2, 3, 4, 5]
+FileTable: []
+Heap: MyHeap{heap={7=6}, newFree=8}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1]
+SymTable: dictionary={a=RefValue(0int), counter=7}
+Out: list=[0, 1, 2, 3, 4, 5, 6]
+FileTable: []
+Heap: MyHeap{heap={7=6}, newFree=8}
+-------------------------
+26
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(7int), counter=6}
+Out: list=[0, 1, 2, 3, 4, 5, 6]
+FileTable: []
+Heap: MyHeap{heap={7=6}, newFree=8}
+-------------------------
+27
+
+ExeStack: stack=[statements.ForkStatement@32a1bec0]
+SymTable: dictionary={a=RefValue(0int), counter=7}
+Out: list=[0, 1, 2, 3, 4, 5, 6]
+FileTable: []
+Heap: MyHeap{heap={7=6}, newFree=8}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1]
+SymTable: dictionary={a=RefValue(0int), counter=7}
+Out: list=[0, 1, 2, 3, 4, 5, 6]
+FileTable: []
+Heap: MyHeap{heap={7=6}, newFree=8}
+-------------------------
+26
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(7int), counter=6}
+Out: list=[0, 1, 2, 3, 4, 5, 6]
+FileTable: []
+Heap: MyHeap{heap={7=6}, newFree=8}
+-------------------------
+27
+
+ExeStack: stack=[statements.ForkStatement@32a1bec0]
+SymTable: dictionary={a=RefValue(0int), counter=7}
+Out: list=[0, 1, 2, 3, 4, 5, 6]
+FileTable: []
+Heap: MyHeap{heap={7=6}, newFree=8}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}]
+SymTable: dictionary={a=RefValue(0int), counter=8}
+Out: list=[0, 1, 2, 3, 4, 5, 6]
+FileTable: []
+Heap: MyHeap{heap={7=6}, newFree=8}
+-------------------------
+27
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(0int), counter=7}
+Out: list=[0, 1, 2, 3, 4, 5, 6]
+FileTable: []
+Heap: MyHeap{heap={7=6}, newFree=8}
+-------------------------
+28
+
+ExeStack: stack=[(HeapAllocStmt{id='a', expression=counter} print(RHExp{expression=a}))]
+SymTable: dictionary={a=RefValue(0int), counter=7}
+Out: list=[0, 1, 2, 3, 4, 5, 6]
+FileTable: []
+Heap: MyHeap{heap={7=6}, newFree=8}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}]
+SymTable: dictionary={a=RefValue(0int), counter=8}
+Out: list=[0, 1, 2, 3, 4, 5, 6]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=8}
+-------------------------
+27
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(0int), counter=7}
+Out: list=[0, 1, 2, 3, 4, 5, 6]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=8}
+-------------------------
+28
+
+ExeStack: stack=[(HeapAllocStmt{id='a', expression=counter} print(RHExp{expression=a}))]
+SymTable: dictionary={a=RefValue(0int), counter=7}
+Out: list=[0, 1, 2, 3, 4, 5, 6]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=8}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, (statements.ForkStatement@300ffa5d counter=counter+1)]
+SymTable: dictionary={a=RefValue(0int), counter=8}
+Out: list=[0, 1, 2, 3, 4, 5, 6]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=8}
+-------------------------
+28
+
+ExeStack: stack=[print(RHExp{expression=a}), HeapAllocStmt{id='a', expression=counter}]
+SymTable: dictionary={a=RefValue(0int), counter=7}
+Out: list=[0, 1, 2, 3, 4, 5, 6]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=8}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, (statements.ForkStatement@300ffa5d counter=counter+1)]
+SymTable: dictionary={a=RefValue(0int), counter=8}
+Out: list=[0, 1, 2, 3, 4, 5, 6]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=8}
+-------------------------
+28
+
+ExeStack: stack=[print(RHExp{expression=a}), HeapAllocStmt{id='a', expression=counter}]
+SymTable: dictionary={a=RefValue(0int), counter=7}
+Out: list=[0, 1, 2, 3, 4, 5, 6]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=8}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1, statements.ForkStatement@300ffa5d]
+SymTable: dictionary={a=RefValue(0int), counter=8}
+Out: list=[0, 1, 2, 3, 4, 5, 6]
+FileTable: []
+Heap: MyHeap{heap={8=7}, newFree=9}
+-------------------------
+28
+
+ExeStack: stack=[print(RHExp{expression=a})]
+SymTable: dictionary={a=RefValue(8int), counter=7}
+Out: list=[0, 1, 2, 3, 4, 5, 6]
+FileTable: []
+Heap: MyHeap{heap={8=7}, newFree=9}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1, statements.ForkStatement@300ffa5d]
+SymTable: dictionary={a=RefValue(0int), counter=8}
+Out: list=[0, 1, 2, 3, 4, 5, 6]
+FileTable: []
+Heap: MyHeap{heap={8=7}, newFree=9}
+-------------------------
+28
+
+ExeStack: stack=[print(RHExp{expression=a})]
+SymTable: dictionary={a=RefValue(8int), counter=7}
+Out: list=[0, 1, 2, 3, 4, 5, 6]
+FileTable: []
+Heap: MyHeap{heap={8=7}, newFree=9}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1]
+SymTable: dictionary={a=RefValue(0int), counter=8}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7]
+FileTable: []
+Heap: MyHeap{heap={8=7}, newFree=9}
+-------------------------
+28
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(8int), counter=7}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7]
+FileTable: []
+Heap: MyHeap{heap={8=7}, newFree=9}
+-------------------------
+29
+
+ExeStack: stack=[statements.ForkStatement@32a1bec0]
+SymTable: dictionary={a=RefValue(0int), counter=8}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7]
+FileTable: []
+Heap: MyHeap{heap={8=7}, newFree=9}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1]
+SymTable: dictionary={a=RefValue(0int), counter=8}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7]
+FileTable: []
+Heap: MyHeap{heap={8=7}, newFree=9}
+-------------------------
+28
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(8int), counter=7}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7]
+FileTable: []
+Heap: MyHeap{heap={8=7}, newFree=9}
+-------------------------
+29
+
+ExeStack: stack=[statements.ForkStatement@32a1bec0]
+SymTable: dictionary={a=RefValue(0int), counter=8}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7]
+FileTable: []
+Heap: MyHeap{heap={8=7}, newFree=9}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}]
+SymTable: dictionary={a=RefValue(0int), counter=9}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7]
+FileTable: []
+Heap: MyHeap{heap={8=7}, newFree=9}
+-------------------------
+29
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(0int), counter=8}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7]
+FileTable: []
+Heap: MyHeap{heap={8=7}, newFree=9}
+-------------------------
+30
+
+ExeStack: stack=[(HeapAllocStmt{id='a', expression=counter} print(RHExp{expression=a}))]
+SymTable: dictionary={a=RefValue(0int), counter=8}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7]
+FileTable: []
+Heap: MyHeap{heap={8=7}, newFree=9}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}]
+SymTable: dictionary={a=RefValue(0int), counter=9}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=9}
+-------------------------
+29
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(0int), counter=8}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=9}
+-------------------------
+30
+
+ExeStack: stack=[(HeapAllocStmt{id='a', expression=counter} print(RHExp{expression=a}))]
+SymTable: dictionary={a=RefValue(0int), counter=8}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=9}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, (statements.ForkStatement@300ffa5d counter=counter+1)]
+SymTable: dictionary={a=RefValue(0int), counter=9}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=9}
+-------------------------
+30
+
+ExeStack: stack=[print(RHExp{expression=a}), HeapAllocStmt{id='a', expression=counter}]
+SymTable: dictionary={a=RefValue(0int), counter=8}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=9}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, (statements.ForkStatement@300ffa5d counter=counter+1)]
+SymTable: dictionary={a=RefValue(0int), counter=9}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=9}
+-------------------------
+30
+
+ExeStack: stack=[print(RHExp{expression=a}), HeapAllocStmt{id='a', expression=counter}]
+SymTable: dictionary={a=RefValue(0int), counter=8}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=9}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1, statements.ForkStatement@300ffa5d]
+SymTable: dictionary={a=RefValue(0int), counter=9}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7]
+FileTable: []
+Heap: MyHeap{heap={9=8}, newFree=10}
+-------------------------
+30
+
+ExeStack: stack=[print(RHExp{expression=a})]
+SymTable: dictionary={a=RefValue(9int), counter=8}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7]
+FileTable: []
+Heap: MyHeap{heap={9=8}, newFree=10}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1, statements.ForkStatement@300ffa5d]
+SymTable: dictionary={a=RefValue(0int), counter=9}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7]
+FileTable: []
+Heap: MyHeap{heap={9=8}, newFree=10}
+-------------------------
+30
+
+ExeStack: stack=[print(RHExp{expression=a})]
+SymTable: dictionary={a=RefValue(9int), counter=8}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7]
+FileTable: []
+Heap: MyHeap{heap={9=8}, newFree=10}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1]
+SymTable: dictionary={a=RefValue(0int), counter=9}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7, 8]
+FileTable: []
+Heap: MyHeap{heap={9=8}, newFree=10}
+-------------------------
+30
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(9int), counter=8}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7, 8]
+FileTable: []
+Heap: MyHeap{heap={9=8}, newFree=10}
+-------------------------
+31
+
+ExeStack: stack=[statements.ForkStatement@32a1bec0]
+SymTable: dictionary={a=RefValue(0int), counter=9}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7, 8]
+FileTable: []
+Heap: MyHeap{heap={9=8}, newFree=10}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1]
+SymTable: dictionary={a=RefValue(0int), counter=9}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7, 8]
+FileTable: []
+Heap: MyHeap{heap={9=8}, newFree=10}
+-------------------------
+30
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(9int), counter=8}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7, 8]
+FileTable: []
+Heap: MyHeap{heap={9=8}, newFree=10}
+-------------------------
+31
+
+ExeStack: stack=[statements.ForkStatement@32a1bec0]
+SymTable: dictionary={a=RefValue(0int), counter=9}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7, 8]
+FileTable: []
+Heap: MyHeap{heap={9=8}, newFree=10}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}]
+SymTable: dictionary={a=RefValue(0int), counter=10}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7, 8]
+FileTable: []
+Heap: MyHeap{heap={9=8}, newFree=10}
+-------------------------
+31
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(0int), counter=9}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7, 8]
+FileTable: []
+Heap: MyHeap{heap={9=8}, newFree=10}
+-------------------------
+32
+
+ExeStack: stack=[(HeapAllocStmt{id='a', expression=counter} print(RHExp{expression=a}))]
+SymTable: dictionary={a=RefValue(0int), counter=9}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7, 8]
+FileTable: []
+Heap: MyHeap{heap={9=8}, newFree=10}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}]
+SymTable: dictionary={a=RefValue(0int), counter=10}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7, 8]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=10}
+-------------------------
+31
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(0int), counter=9}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7, 8]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=10}
+-------------------------
+32
+
+ExeStack: stack=[(HeapAllocStmt{id='a', expression=counter} print(RHExp{expression=a}))]
+SymTable: dictionary={a=RefValue(0int), counter=9}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7, 8]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=10}
+-------------------------
+11
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(0int), counter=10}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7, 8]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=10}
+-------------------------
+32
+
+ExeStack: stack=[print(RHExp{expression=a}), HeapAllocStmt{id='a', expression=counter}]
+SymTable: dictionary={a=RefValue(0int), counter=9}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7, 8]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=10}
+-------------------------
+11
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(0int), counter=10}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7, 8]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=10}
+-------------------------
+32
+
+ExeStack: stack=[print(RHExp{expression=a}), HeapAllocStmt{id='a', expression=counter}]
+SymTable: dictionary={a=RefValue(0int), counter=9}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7, 8]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=10}
+-------------------------
+32
+
+ExeStack: stack=[print(RHExp{expression=a})]
+SymTable: dictionary={a=RefValue(10int), counter=9}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7, 8]
+FileTable: []
+Heap: MyHeap{heap={10=9}, newFree=11}
+-------------------------
+32
+
+ExeStack: stack=[print(RHExp{expression=a})]
+SymTable: dictionary={a=RefValue(10int), counter=9}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7, 8]
+FileTable: []
+Heap: MyHeap{heap={10=9}, newFree=11}
+-------------------------
+32
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(10int), counter=9}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+FileTable: []
+Heap: MyHeap{heap={10=9}, newFree=11}
+-------------------------
+32
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(10int), counter=9}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+FileTable: []
+Heap: MyHeap{heap={10=9}, newFree=11}
+-------------------------
+11
+
+ExeStack: stack=[(int counter; WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}), Ref(int) a;]
+SymTable: dictionary={}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+11
+
+ExeStack: stack=[(int counter; WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}), Ref(int) a;]
+SymTable: dictionary={}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+11
+
+ExeStack: stack=[(int counter; WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)})]
+SymTable: dictionary={a=RefValue(0int)}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+11
+
+ExeStack: stack=[(int counter; WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)})]
+SymTable: dictionary={a=RefValue(0int)}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, int counter;]
+SymTable: dictionary={a=RefValue(0int)}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, int counter;]
+SymTable: dictionary={a=RefValue(0int)}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}]
+SymTable: dictionary={a=RefValue(0int), counter=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}]
+SymTable: dictionary={a=RefValue(0int), counter=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, (statements.ForkStatement@300ffa5d counter=counter+1)]
+SymTable: dictionary={a=RefValue(0int), counter=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, (statements.ForkStatement@300ffa5d counter=counter+1)]
+SymTable: dictionary={a=RefValue(0int), counter=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1, statements.ForkStatement@300ffa5d]
+SymTable: dictionary={a=RefValue(0int), counter=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1, statements.ForkStatement@300ffa5d]
+SymTable: dictionary={a=RefValue(0int), counter=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1]
+SymTable: dictionary={a=RefValue(0int), counter=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+13
+
+ExeStack: stack=[statements.ForkStatement@78e03bb5]
+SymTable: dictionary={a=RefValue(0int), counter=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1]
+SymTable: dictionary={a=RefValue(0int), counter=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+13
+
+ExeStack: stack=[statements.ForkStatement@78e03bb5]
+SymTable: dictionary={a=RefValue(0int), counter=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}]
+SymTable: dictionary={a=RefValue(0int), counter=1}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+13
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(0int), counter=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+14
+
+ExeStack: stack=[(HeapAllocStmt{id='a', expression=counter} print(RHExp{expression=a}))]
+SymTable: dictionary={a=RefValue(0int), counter=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}]
+SymTable: dictionary={a=RefValue(0int), counter=1}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+13
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(0int), counter=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+14
+
+ExeStack: stack=[(HeapAllocStmt{id='a', expression=counter} print(RHExp{expression=a}))]
+SymTable: dictionary={a=RefValue(0int), counter=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, (statements.ForkStatement@300ffa5d counter=counter+1)]
+SymTable: dictionary={a=RefValue(0int), counter=1}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+14
+
+ExeStack: stack=[print(RHExp{expression=a}), HeapAllocStmt{id='a', expression=counter}]
+SymTable: dictionary={a=RefValue(0int), counter=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, (statements.ForkStatement@300ffa5d counter=counter+1)]
+SymTable: dictionary={a=RefValue(0int), counter=1}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+14
+
+ExeStack: stack=[print(RHExp{expression=a}), HeapAllocStmt{id='a', expression=counter}]
+SymTable: dictionary={a=RefValue(0int), counter=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1, statements.ForkStatement@300ffa5d]
+SymTable: dictionary={a=RefValue(0int), counter=1}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={1=0}, newFree=2}
+-------------------------
+14
+
+ExeStack: stack=[print(RHExp{expression=a})]
+SymTable: dictionary={a=RefValue(1int), counter=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={1=0}, newFree=2}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1, statements.ForkStatement@300ffa5d]
+SymTable: dictionary={a=RefValue(0int), counter=1}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={1=0}, newFree=2}
+-------------------------
+14
+
+ExeStack: stack=[print(RHExp{expression=a})]
+SymTable: dictionary={a=RefValue(1int), counter=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={1=0}, newFree=2}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1]
+SymTable: dictionary={a=RefValue(0int), counter=1}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={1=0}, newFree=2}
+-------------------------
+14
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(1int), counter=0}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={1=0}, newFree=2}
+-------------------------
+15
+
+ExeStack: stack=[statements.ForkStatement@78e03bb5]
+SymTable: dictionary={a=RefValue(0int), counter=1}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={1=0}, newFree=2}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1]
+SymTable: dictionary={a=RefValue(0int), counter=1}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={1=0}, newFree=2}
+-------------------------
+14
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(1int), counter=0}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={1=0}, newFree=2}
+-------------------------
+15
+
+ExeStack: stack=[statements.ForkStatement@78e03bb5]
+SymTable: dictionary={a=RefValue(0int), counter=1}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={1=0}, newFree=2}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}]
+SymTable: dictionary={a=RefValue(0int), counter=2}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={1=0}, newFree=2}
+-------------------------
+15
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(0int), counter=1}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={1=0}, newFree=2}
+-------------------------
+16
+
+ExeStack: stack=[(HeapAllocStmt{id='a', expression=counter} print(RHExp{expression=a}))]
+SymTable: dictionary={a=RefValue(0int), counter=1}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={1=0}, newFree=2}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}]
+SymTable: dictionary={a=RefValue(0int), counter=2}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=2}
+-------------------------
+15
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(0int), counter=1}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=2}
+-------------------------
+16
+
+ExeStack: stack=[(HeapAllocStmt{id='a', expression=counter} print(RHExp{expression=a}))]
+SymTable: dictionary={a=RefValue(0int), counter=1}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=2}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, (statements.ForkStatement@300ffa5d counter=counter+1)]
+SymTable: dictionary={a=RefValue(0int), counter=2}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=2}
+-------------------------
+16
+
+ExeStack: stack=[print(RHExp{expression=a}), HeapAllocStmt{id='a', expression=counter}]
+SymTable: dictionary={a=RefValue(0int), counter=1}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=2}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, (statements.ForkStatement@300ffa5d counter=counter+1)]
+SymTable: dictionary={a=RefValue(0int), counter=2}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=2}
+-------------------------
+16
+
+ExeStack: stack=[print(RHExp{expression=a}), HeapAllocStmt{id='a', expression=counter}]
+SymTable: dictionary={a=RefValue(0int), counter=1}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=2}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1, statements.ForkStatement@300ffa5d]
+SymTable: dictionary={a=RefValue(0int), counter=2}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={2=1}, newFree=3}
+-------------------------
+16
+
+ExeStack: stack=[print(RHExp{expression=a})]
+SymTable: dictionary={a=RefValue(2int), counter=1}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={2=1}, newFree=3}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1, statements.ForkStatement@300ffa5d]
+SymTable: dictionary={a=RefValue(0int), counter=2}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={2=1}, newFree=3}
+-------------------------
+16
+
+ExeStack: stack=[print(RHExp{expression=a})]
+SymTable: dictionary={a=RefValue(2int), counter=1}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={2=1}, newFree=3}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1]
+SymTable: dictionary={a=RefValue(0int), counter=2}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={2=1}, newFree=3}
+-------------------------
+16
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(2int), counter=1}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={2=1}, newFree=3}
+-------------------------
+17
+
+ExeStack: stack=[statements.ForkStatement@78e03bb5]
+SymTable: dictionary={a=RefValue(0int), counter=2}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={2=1}, newFree=3}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1]
+SymTable: dictionary={a=RefValue(0int), counter=2}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={2=1}, newFree=3}
+-------------------------
+16
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(2int), counter=1}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={2=1}, newFree=3}
+-------------------------
+17
+
+ExeStack: stack=[statements.ForkStatement@78e03bb5]
+SymTable: dictionary={a=RefValue(0int), counter=2}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={2=1}, newFree=3}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}]
+SymTable: dictionary={a=RefValue(0int), counter=3}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={2=1}, newFree=3}
+-------------------------
+17
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(0int), counter=2}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={2=1}, newFree=3}
+-------------------------
+18
+
+ExeStack: stack=[(HeapAllocStmt{id='a', expression=counter} print(RHExp{expression=a}))]
+SymTable: dictionary={a=RefValue(0int), counter=2}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={2=1}, newFree=3}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}]
+SymTable: dictionary={a=RefValue(0int), counter=3}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=3}
+-------------------------
+17
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(0int), counter=2}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=3}
+-------------------------
+18
+
+ExeStack: stack=[(HeapAllocStmt{id='a', expression=counter} print(RHExp{expression=a}))]
+SymTable: dictionary={a=RefValue(0int), counter=2}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=3}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, (statements.ForkStatement@300ffa5d counter=counter+1)]
+SymTable: dictionary={a=RefValue(0int), counter=3}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=3}
+-------------------------
+18
+
+ExeStack: stack=[print(RHExp{expression=a}), HeapAllocStmt{id='a', expression=counter}]
+SymTable: dictionary={a=RefValue(0int), counter=2}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=3}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, (statements.ForkStatement@300ffa5d counter=counter+1)]
+SymTable: dictionary={a=RefValue(0int), counter=3}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=3}
+-------------------------
+18
+
+ExeStack: stack=[print(RHExp{expression=a}), HeapAllocStmt{id='a', expression=counter}]
+SymTable: dictionary={a=RefValue(0int), counter=2}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=3}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1, statements.ForkStatement@300ffa5d]
+SymTable: dictionary={a=RefValue(0int), counter=3}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={3=2}, newFree=4}
+-------------------------
+18
+
+ExeStack: stack=[print(RHExp{expression=a})]
+SymTable: dictionary={a=RefValue(3int), counter=2}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={3=2}, newFree=4}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1, statements.ForkStatement@300ffa5d]
+SymTable: dictionary={a=RefValue(0int), counter=3}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={3=2}, newFree=4}
+-------------------------
+18
+
+ExeStack: stack=[print(RHExp{expression=a})]
+SymTable: dictionary={a=RefValue(3int), counter=2}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={3=2}, newFree=4}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1]
+SymTable: dictionary={a=RefValue(0int), counter=3}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={3=2}, newFree=4}
+-------------------------
+18
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(3int), counter=2}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={3=2}, newFree=4}
+-------------------------
+19
+
+ExeStack: stack=[statements.ForkStatement@78e03bb5]
+SymTable: dictionary={a=RefValue(0int), counter=3}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={3=2}, newFree=4}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1]
+SymTable: dictionary={a=RefValue(0int), counter=3}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={3=2}, newFree=4}
+-------------------------
+18
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(3int), counter=2}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={3=2}, newFree=4}
+-------------------------
+19
+
+ExeStack: stack=[statements.ForkStatement@78e03bb5]
+SymTable: dictionary={a=RefValue(0int), counter=3}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={3=2}, newFree=4}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}]
+SymTable: dictionary={a=RefValue(0int), counter=4}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={3=2}, newFree=4}
+-------------------------
+19
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(0int), counter=3}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={3=2}, newFree=4}
+-------------------------
+20
+
+ExeStack: stack=[(HeapAllocStmt{id='a', expression=counter} print(RHExp{expression=a}))]
+SymTable: dictionary={a=RefValue(0int), counter=3}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={3=2}, newFree=4}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}]
+SymTable: dictionary={a=RefValue(0int), counter=4}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=4}
+-------------------------
+19
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(0int), counter=3}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=4}
+-------------------------
+20
+
+ExeStack: stack=[(HeapAllocStmt{id='a', expression=counter} print(RHExp{expression=a}))]
+SymTable: dictionary={a=RefValue(0int), counter=3}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=4}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, (statements.ForkStatement@300ffa5d counter=counter+1)]
+SymTable: dictionary={a=RefValue(0int), counter=4}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=4}
+-------------------------
+20
+
+ExeStack: stack=[print(RHExp{expression=a}), HeapAllocStmt{id='a', expression=counter}]
+SymTable: dictionary={a=RefValue(0int), counter=3}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=4}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, (statements.ForkStatement@300ffa5d counter=counter+1)]
+SymTable: dictionary={a=RefValue(0int), counter=4}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=4}
+-------------------------
+20
+
+ExeStack: stack=[print(RHExp{expression=a}), HeapAllocStmt{id='a', expression=counter}]
+SymTable: dictionary={a=RefValue(0int), counter=3}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=4}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1, statements.ForkStatement@300ffa5d]
+SymTable: dictionary={a=RefValue(0int), counter=4}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={4=3}, newFree=5}
+-------------------------
+20
+
+ExeStack: stack=[print(RHExp{expression=a})]
+SymTable: dictionary={a=RefValue(4int), counter=3}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={4=3}, newFree=5}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1, statements.ForkStatement@300ffa5d]
+SymTable: dictionary={a=RefValue(0int), counter=4}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={4=3}, newFree=5}
+-------------------------
+20
+
+ExeStack: stack=[print(RHExp{expression=a})]
+SymTable: dictionary={a=RefValue(4int), counter=3}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={4=3}, newFree=5}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1]
+SymTable: dictionary={a=RefValue(0int), counter=4}
+Out: list=[0, 1, 2, 3]
+FileTable: []
+Heap: MyHeap{heap={4=3}, newFree=5}
+-------------------------
+20
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(4int), counter=3}
+Out: list=[0, 1, 2, 3]
+FileTable: []
+Heap: MyHeap{heap={4=3}, newFree=5}
+-------------------------
+21
+
+ExeStack: stack=[statements.ForkStatement@78e03bb5]
+SymTable: dictionary={a=RefValue(0int), counter=4}
+Out: list=[0, 1, 2, 3]
+FileTable: []
+Heap: MyHeap{heap={4=3}, newFree=5}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1]
+SymTable: dictionary={a=RefValue(0int), counter=4}
+Out: list=[0, 1, 2, 3]
+FileTable: []
+Heap: MyHeap{heap={4=3}, newFree=5}
+-------------------------
+20
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(4int), counter=3}
+Out: list=[0, 1, 2, 3]
+FileTable: []
+Heap: MyHeap{heap={4=3}, newFree=5}
+-------------------------
+21
+
+ExeStack: stack=[statements.ForkStatement@78e03bb5]
+SymTable: dictionary={a=RefValue(0int), counter=4}
+Out: list=[0, 1, 2, 3]
+FileTable: []
+Heap: MyHeap{heap={4=3}, newFree=5}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}]
+SymTable: dictionary={a=RefValue(0int), counter=5}
+Out: list=[0, 1, 2, 3]
+FileTable: []
+Heap: MyHeap{heap={4=3}, newFree=5}
+-------------------------
+21
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(0int), counter=4}
+Out: list=[0, 1, 2, 3]
+FileTable: []
+Heap: MyHeap{heap={4=3}, newFree=5}
+-------------------------
+22
+
+ExeStack: stack=[(HeapAllocStmt{id='a', expression=counter} print(RHExp{expression=a}))]
+SymTable: dictionary={a=RefValue(0int), counter=4}
+Out: list=[0, 1, 2, 3]
+FileTable: []
+Heap: MyHeap{heap={4=3}, newFree=5}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}]
+SymTable: dictionary={a=RefValue(0int), counter=5}
+Out: list=[0, 1, 2, 3]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=5}
+-------------------------
+21
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(0int), counter=4}
+Out: list=[0, 1, 2, 3]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=5}
+-------------------------
+22
+
+ExeStack: stack=[(HeapAllocStmt{id='a', expression=counter} print(RHExp{expression=a}))]
+SymTable: dictionary={a=RefValue(0int), counter=4}
+Out: list=[0, 1, 2, 3]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=5}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, (statements.ForkStatement@300ffa5d counter=counter+1)]
+SymTable: dictionary={a=RefValue(0int), counter=5}
+Out: list=[0, 1, 2, 3]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=5}
+-------------------------
+22
+
+ExeStack: stack=[print(RHExp{expression=a}), HeapAllocStmt{id='a', expression=counter}]
+SymTable: dictionary={a=RefValue(0int), counter=4}
+Out: list=[0, 1, 2, 3]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=5}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, (statements.ForkStatement@300ffa5d counter=counter+1)]
+SymTable: dictionary={a=RefValue(0int), counter=5}
+Out: list=[0, 1, 2, 3]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=5}
+-------------------------
+22
+
+ExeStack: stack=[print(RHExp{expression=a}), HeapAllocStmt{id='a', expression=counter}]
+SymTable: dictionary={a=RefValue(0int), counter=4}
+Out: list=[0, 1, 2, 3]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=5}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1, statements.ForkStatement@300ffa5d]
+SymTable: dictionary={a=RefValue(0int), counter=5}
+Out: list=[0, 1, 2, 3]
+FileTable: []
+Heap: MyHeap{heap={5=4}, newFree=6}
+-------------------------
+22
+
+ExeStack: stack=[print(RHExp{expression=a})]
+SymTable: dictionary={a=RefValue(5int), counter=4}
+Out: list=[0, 1, 2, 3]
+FileTable: []
+Heap: MyHeap{heap={5=4}, newFree=6}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1, statements.ForkStatement@300ffa5d]
+SymTable: dictionary={a=RefValue(0int), counter=5}
+Out: list=[0, 1, 2, 3]
+FileTable: []
+Heap: MyHeap{heap={5=4}, newFree=6}
+-------------------------
+22
+
+ExeStack: stack=[print(RHExp{expression=a})]
+SymTable: dictionary={a=RefValue(5int), counter=4}
+Out: list=[0, 1, 2, 3]
+FileTable: []
+Heap: MyHeap{heap={5=4}, newFree=6}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1]
+SymTable: dictionary={a=RefValue(0int), counter=5}
+Out: list=[0, 1, 2, 3, 4]
+FileTable: []
+Heap: MyHeap{heap={5=4}, newFree=6}
+-------------------------
+22
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(5int), counter=4}
+Out: list=[0, 1, 2, 3, 4]
+FileTable: []
+Heap: MyHeap{heap={5=4}, newFree=6}
+-------------------------
+23
+
+ExeStack: stack=[statements.ForkStatement@78e03bb5]
+SymTable: dictionary={a=RefValue(0int), counter=5}
+Out: list=[0, 1, 2, 3, 4]
+FileTable: []
+Heap: MyHeap{heap={5=4}, newFree=6}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1]
+SymTable: dictionary={a=RefValue(0int), counter=5}
+Out: list=[0, 1, 2, 3, 4]
+FileTable: []
+Heap: MyHeap{heap={5=4}, newFree=6}
+-------------------------
+22
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(5int), counter=4}
+Out: list=[0, 1, 2, 3, 4]
+FileTable: []
+Heap: MyHeap{heap={5=4}, newFree=6}
+-------------------------
+23
+
+ExeStack: stack=[statements.ForkStatement@78e03bb5]
+SymTable: dictionary={a=RefValue(0int), counter=5}
+Out: list=[0, 1, 2, 3, 4]
+FileTable: []
+Heap: MyHeap{heap={5=4}, newFree=6}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}]
+SymTable: dictionary={a=RefValue(0int), counter=6}
+Out: list=[0, 1, 2, 3, 4]
+FileTable: []
+Heap: MyHeap{heap={5=4}, newFree=6}
+-------------------------
+23
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(0int), counter=5}
+Out: list=[0, 1, 2, 3, 4]
+FileTable: []
+Heap: MyHeap{heap={5=4}, newFree=6}
+-------------------------
+24
+
+ExeStack: stack=[(HeapAllocStmt{id='a', expression=counter} print(RHExp{expression=a}))]
+SymTable: dictionary={a=RefValue(0int), counter=5}
+Out: list=[0, 1, 2, 3, 4]
+FileTable: []
+Heap: MyHeap{heap={5=4}, newFree=6}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}]
+SymTable: dictionary={a=RefValue(0int), counter=6}
+Out: list=[0, 1, 2, 3, 4]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=6}
+-------------------------
+23
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(0int), counter=5}
+Out: list=[0, 1, 2, 3, 4]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=6}
+-------------------------
+24
+
+ExeStack: stack=[(HeapAllocStmt{id='a', expression=counter} print(RHExp{expression=a}))]
+SymTable: dictionary={a=RefValue(0int), counter=5}
+Out: list=[0, 1, 2, 3, 4]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=6}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, (statements.ForkStatement@300ffa5d counter=counter+1)]
+SymTable: dictionary={a=RefValue(0int), counter=6}
+Out: list=[0, 1, 2, 3, 4]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=6}
+-------------------------
+24
+
+ExeStack: stack=[print(RHExp{expression=a}), HeapAllocStmt{id='a', expression=counter}]
+SymTable: dictionary={a=RefValue(0int), counter=5}
+Out: list=[0, 1, 2, 3, 4]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=6}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, (statements.ForkStatement@300ffa5d counter=counter+1)]
+SymTable: dictionary={a=RefValue(0int), counter=6}
+Out: list=[0, 1, 2, 3, 4]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=6}
+-------------------------
+24
+
+ExeStack: stack=[print(RHExp{expression=a}), HeapAllocStmt{id='a', expression=counter}]
+SymTable: dictionary={a=RefValue(0int), counter=5}
+Out: list=[0, 1, 2, 3, 4]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=6}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1, statements.ForkStatement@300ffa5d]
+SymTable: dictionary={a=RefValue(0int), counter=6}
+Out: list=[0, 1, 2, 3, 4]
+FileTable: []
+Heap: MyHeap{heap={6=5}, newFree=7}
+-------------------------
+24
+
+ExeStack: stack=[print(RHExp{expression=a})]
+SymTable: dictionary={a=RefValue(6int), counter=5}
+Out: list=[0, 1, 2, 3, 4]
+FileTable: []
+Heap: MyHeap{heap={6=5}, newFree=7}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1, statements.ForkStatement@300ffa5d]
+SymTable: dictionary={a=RefValue(0int), counter=6}
+Out: list=[0, 1, 2, 3, 4]
+FileTable: []
+Heap: MyHeap{heap={6=5}, newFree=7}
+-------------------------
+24
+
+ExeStack: stack=[print(RHExp{expression=a})]
+SymTable: dictionary={a=RefValue(6int), counter=5}
+Out: list=[0, 1, 2, 3, 4]
+FileTable: []
+Heap: MyHeap{heap={6=5}, newFree=7}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1]
+SymTable: dictionary={a=RefValue(0int), counter=6}
+Out: list=[0, 1, 2, 3, 4, 5]
+FileTable: []
+Heap: MyHeap{heap={6=5}, newFree=7}
+-------------------------
+24
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(6int), counter=5}
+Out: list=[0, 1, 2, 3, 4, 5]
+FileTable: []
+Heap: MyHeap{heap={6=5}, newFree=7}
+-------------------------
+25
+
+ExeStack: stack=[statements.ForkStatement@78e03bb5]
+SymTable: dictionary={a=RefValue(0int), counter=6}
+Out: list=[0, 1, 2, 3, 4, 5]
+FileTable: []
+Heap: MyHeap{heap={6=5}, newFree=7}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1]
+SymTable: dictionary={a=RefValue(0int), counter=6}
+Out: list=[0, 1, 2, 3, 4, 5]
+FileTable: []
+Heap: MyHeap{heap={6=5}, newFree=7}
+-------------------------
+24
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(6int), counter=5}
+Out: list=[0, 1, 2, 3, 4, 5]
+FileTable: []
+Heap: MyHeap{heap={6=5}, newFree=7}
+-------------------------
+25
+
+ExeStack: stack=[statements.ForkStatement@78e03bb5]
+SymTable: dictionary={a=RefValue(0int), counter=6}
+Out: list=[0, 1, 2, 3, 4, 5]
+FileTable: []
+Heap: MyHeap{heap={6=5}, newFree=7}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}]
+SymTable: dictionary={a=RefValue(0int), counter=7}
+Out: list=[0, 1, 2, 3, 4, 5]
+FileTable: []
+Heap: MyHeap{heap={6=5}, newFree=7}
+-------------------------
+25
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(0int), counter=6}
+Out: list=[0, 1, 2, 3, 4, 5]
+FileTable: []
+Heap: MyHeap{heap={6=5}, newFree=7}
+-------------------------
+26
+
+ExeStack: stack=[(HeapAllocStmt{id='a', expression=counter} print(RHExp{expression=a}))]
+SymTable: dictionary={a=RefValue(0int), counter=6}
+Out: list=[0, 1, 2, 3, 4, 5]
+FileTable: []
+Heap: MyHeap{heap={6=5}, newFree=7}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}]
+SymTable: dictionary={a=RefValue(0int), counter=7}
+Out: list=[0, 1, 2, 3, 4, 5]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=7}
+-------------------------
+25
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(0int), counter=6}
+Out: list=[0, 1, 2, 3, 4, 5]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=7}
+-------------------------
+26
+
+ExeStack: stack=[(HeapAllocStmt{id='a', expression=counter} print(RHExp{expression=a}))]
+SymTable: dictionary={a=RefValue(0int), counter=6}
+Out: list=[0, 1, 2, 3, 4, 5]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=7}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, (statements.ForkStatement@300ffa5d counter=counter+1)]
+SymTable: dictionary={a=RefValue(0int), counter=7}
+Out: list=[0, 1, 2, 3, 4, 5]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=7}
+-------------------------
+26
+
+ExeStack: stack=[print(RHExp{expression=a}), HeapAllocStmt{id='a', expression=counter}]
+SymTable: dictionary={a=RefValue(0int), counter=6}
+Out: list=[0, 1, 2, 3, 4, 5]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=7}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, (statements.ForkStatement@300ffa5d counter=counter+1)]
+SymTable: dictionary={a=RefValue(0int), counter=7}
+Out: list=[0, 1, 2, 3, 4, 5]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=7}
+-------------------------
+26
+
+ExeStack: stack=[print(RHExp{expression=a}), HeapAllocStmt{id='a', expression=counter}]
+SymTable: dictionary={a=RefValue(0int), counter=6}
+Out: list=[0, 1, 2, 3, 4, 5]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=7}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1, statements.ForkStatement@300ffa5d]
+SymTable: dictionary={a=RefValue(0int), counter=7}
+Out: list=[0, 1, 2, 3, 4, 5]
+FileTable: []
+Heap: MyHeap{heap={7=6}, newFree=8}
+-------------------------
+26
+
+ExeStack: stack=[print(RHExp{expression=a})]
+SymTable: dictionary={a=RefValue(7int), counter=6}
+Out: list=[0, 1, 2, 3, 4, 5]
+FileTable: []
+Heap: MyHeap{heap={7=6}, newFree=8}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1, statements.ForkStatement@300ffa5d]
+SymTable: dictionary={a=RefValue(0int), counter=7}
+Out: list=[0, 1, 2, 3, 4, 5]
+FileTable: []
+Heap: MyHeap{heap={7=6}, newFree=8}
+-------------------------
+26
+
+ExeStack: stack=[print(RHExp{expression=a})]
+SymTable: dictionary={a=RefValue(7int), counter=6}
+Out: list=[0, 1, 2, 3, 4, 5]
+FileTable: []
+Heap: MyHeap{heap={7=6}, newFree=8}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1]
+SymTable: dictionary={a=RefValue(0int), counter=7}
+Out: list=[0, 1, 2, 3, 4, 5, 6]
+FileTable: []
+Heap: MyHeap{heap={7=6}, newFree=8}
+-------------------------
+26
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(7int), counter=6}
+Out: list=[0, 1, 2, 3, 4, 5, 6]
+FileTable: []
+Heap: MyHeap{heap={7=6}, newFree=8}
+-------------------------
+27
+
+ExeStack: stack=[statements.ForkStatement@78e03bb5]
+SymTable: dictionary={a=RefValue(0int), counter=7}
+Out: list=[0, 1, 2, 3, 4, 5, 6]
+FileTable: []
+Heap: MyHeap{heap={7=6}, newFree=8}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1]
+SymTable: dictionary={a=RefValue(0int), counter=7}
+Out: list=[0, 1, 2, 3, 4, 5, 6]
+FileTable: []
+Heap: MyHeap{heap={7=6}, newFree=8}
+-------------------------
+26
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(7int), counter=6}
+Out: list=[0, 1, 2, 3, 4, 5, 6]
+FileTable: []
+Heap: MyHeap{heap={7=6}, newFree=8}
+-------------------------
+27
+
+ExeStack: stack=[statements.ForkStatement@78e03bb5]
+SymTable: dictionary={a=RefValue(0int), counter=7}
+Out: list=[0, 1, 2, 3, 4, 5, 6]
+FileTable: []
+Heap: MyHeap{heap={7=6}, newFree=8}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}]
+SymTable: dictionary={a=RefValue(0int), counter=8}
+Out: list=[0, 1, 2, 3, 4, 5, 6]
+FileTable: []
+Heap: MyHeap{heap={7=6}, newFree=8}
+-------------------------
+27
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(0int), counter=7}
+Out: list=[0, 1, 2, 3, 4, 5, 6]
+FileTable: []
+Heap: MyHeap{heap={7=6}, newFree=8}
+-------------------------
+28
+
+ExeStack: stack=[(HeapAllocStmt{id='a', expression=counter} print(RHExp{expression=a}))]
+SymTable: dictionary={a=RefValue(0int), counter=7}
+Out: list=[0, 1, 2, 3, 4, 5, 6]
+FileTable: []
+Heap: MyHeap{heap={7=6}, newFree=8}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}]
+SymTable: dictionary={a=RefValue(0int), counter=8}
+Out: list=[0, 1, 2, 3, 4, 5, 6]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=8}
+-------------------------
+27
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(0int), counter=7}
+Out: list=[0, 1, 2, 3, 4, 5, 6]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=8}
+-------------------------
+28
+
+ExeStack: stack=[(HeapAllocStmt{id='a', expression=counter} print(RHExp{expression=a}))]
+SymTable: dictionary={a=RefValue(0int), counter=7}
+Out: list=[0, 1, 2, 3, 4, 5, 6]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=8}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, (statements.ForkStatement@300ffa5d counter=counter+1)]
+SymTable: dictionary={a=RefValue(0int), counter=8}
+Out: list=[0, 1, 2, 3, 4, 5, 6]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=8}
+-------------------------
+28
+
+ExeStack: stack=[print(RHExp{expression=a}), HeapAllocStmt{id='a', expression=counter}]
+SymTable: dictionary={a=RefValue(0int), counter=7}
+Out: list=[0, 1, 2, 3, 4, 5, 6]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=8}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, (statements.ForkStatement@300ffa5d counter=counter+1)]
+SymTable: dictionary={a=RefValue(0int), counter=8}
+Out: list=[0, 1, 2, 3, 4, 5, 6]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=8}
+-------------------------
+28
+
+ExeStack: stack=[print(RHExp{expression=a}), HeapAllocStmt{id='a', expression=counter}]
+SymTable: dictionary={a=RefValue(0int), counter=7}
+Out: list=[0, 1, 2, 3, 4, 5, 6]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=8}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1, statements.ForkStatement@300ffa5d]
+SymTable: dictionary={a=RefValue(0int), counter=8}
+Out: list=[0, 1, 2, 3, 4, 5, 6]
+FileTable: []
+Heap: MyHeap{heap={8=7}, newFree=9}
+-------------------------
+28
+
+ExeStack: stack=[print(RHExp{expression=a})]
+SymTable: dictionary={a=RefValue(8int), counter=7}
+Out: list=[0, 1, 2, 3, 4, 5, 6]
+FileTable: []
+Heap: MyHeap{heap={8=7}, newFree=9}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1, statements.ForkStatement@300ffa5d]
+SymTable: dictionary={a=RefValue(0int), counter=8}
+Out: list=[0, 1, 2, 3, 4, 5, 6]
+FileTable: []
+Heap: MyHeap{heap={8=7}, newFree=9}
+-------------------------
+28
+
+ExeStack: stack=[print(RHExp{expression=a})]
+SymTable: dictionary={a=RefValue(8int), counter=7}
+Out: list=[0, 1, 2, 3, 4, 5, 6]
+FileTable: []
+Heap: MyHeap{heap={8=7}, newFree=9}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1]
+SymTable: dictionary={a=RefValue(0int), counter=8}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7]
+FileTable: []
+Heap: MyHeap{heap={8=7}, newFree=9}
+-------------------------
+28
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(8int), counter=7}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7]
+FileTable: []
+Heap: MyHeap{heap={8=7}, newFree=9}
+-------------------------
+29
+
+ExeStack: stack=[statements.ForkStatement@78e03bb5]
+SymTable: dictionary={a=RefValue(0int), counter=8}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7]
+FileTable: []
+Heap: MyHeap{heap={8=7}, newFree=9}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1]
+SymTable: dictionary={a=RefValue(0int), counter=8}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7]
+FileTable: []
+Heap: MyHeap{heap={8=7}, newFree=9}
+-------------------------
+28
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(8int), counter=7}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7]
+FileTable: []
+Heap: MyHeap{heap={8=7}, newFree=9}
+-------------------------
+29
+
+ExeStack: stack=[statements.ForkStatement@78e03bb5]
+SymTable: dictionary={a=RefValue(0int), counter=8}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7]
+FileTable: []
+Heap: MyHeap{heap={8=7}, newFree=9}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}]
+SymTable: dictionary={a=RefValue(0int), counter=9}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7]
+FileTable: []
+Heap: MyHeap{heap={8=7}, newFree=9}
+-------------------------
+29
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(0int), counter=8}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7]
+FileTable: []
+Heap: MyHeap{heap={8=7}, newFree=9}
+-------------------------
+30
+
+ExeStack: stack=[(HeapAllocStmt{id='a', expression=counter} print(RHExp{expression=a}))]
+SymTable: dictionary={a=RefValue(0int), counter=8}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7]
+FileTable: []
+Heap: MyHeap{heap={8=7}, newFree=9}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}]
+SymTable: dictionary={a=RefValue(0int), counter=9}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=9}
+-------------------------
+29
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(0int), counter=8}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=9}
+-------------------------
+30
+
+ExeStack: stack=[(HeapAllocStmt{id='a', expression=counter} print(RHExp{expression=a}))]
+SymTable: dictionary={a=RefValue(0int), counter=8}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=9}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, (statements.ForkStatement@300ffa5d counter=counter+1)]
+SymTable: dictionary={a=RefValue(0int), counter=9}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=9}
+-------------------------
+30
+
+ExeStack: stack=[print(RHExp{expression=a}), HeapAllocStmt{id='a', expression=counter}]
+SymTable: dictionary={a=RefValue(0int), counter=8}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=9}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, (statements.ForkStatement@300ffa5d counter=counter+1)]
+SymTable: dictionary={a=RefValue(0int), counter=9}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=9}
+-------------------------
+30
+
+ExeStack: stack=[print(RHExp{expression=a}), HeapAllocStmt{id='a', expression=counter}]
+SymTable: dictionary={a=RefValue(0int), counter=8}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=9}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1, statements.ForkStatement@300ffa5d]
+SymTable: dictionary={a=RefValue(0int), counter=9}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7]
+FileTable: []
+Heap: MyHeap{heap={9=8}, newFree=10}
+-------------------------
+30
+
+ExeStack: stack=[print(RHExp{expression=a})]
+SymTable: dictionary={a=RefValue(9int), counter=8}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7]
+FileTable: []
+Heap: MyHeap{heap={9=8}, newFree=10}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1, statements.ForkStatement@300ffa5d]
+SymTable: dictionary={a=RefValue(0int), counter=9}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7]
+FileTable: []
+Heap: MyHeap{heap={9=8}, newFree=10}
+-------------------------
+30
+
+ExeStack: stack=[print(RHExp{expression=a})]
+SymTable: dictionary={a=RefValue(9int), counter=8}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7]
+FileTable: []
+Heap: MyHeap{heap={9=8}, newFree=10}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1]
+SymTable: dictionary={a=RefValue(0int), counter=9}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7, 8]
+FileTable: []
+Heap: MyHeap{heap={9=8}, newFree=10}
+-------------------------
+30
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(9int), counter=8}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7, 8]
+FileTable: []
+Heap: MyHeap{heap={9=8}, newFree=10}
+-------------------------
+31
+
+ExeStack: stack=[statements.ForkStatement@78e03bb5]
+SymTable: dictionary={a=RefValue(0int), counter=9}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7, 8]
+FileTable: []
+Heap: MyHeap{heap={9=8}, newFree=10}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}, counter=counter+1]
+SymTable: dictionary={a=RefValue(0int), counter=9}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7, 8]
+FileTable: []
+Heap: MyHeap{heap={9=8}, newFree=10}
+-------------------------
+30
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(9int), counter=8}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7, 8]
+FileTable: []
+Heap: MyHeap{heap={9=8}, newFree=10}
+-------------------------
+31
+
+ExeStack: stack=[statements.ForkStatement@78e03bb5]
+SymTable: dictionary={a=RefValue(0int), counter=9}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7, 8]
+FileTable: []
+Heap: MyHeap{heap={9=8}, newFree=10}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}]
+SymTable: dictionary={a=RefValue(0int), counter=10}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7, 8]
+FileTable: []
+Heap: MyHeap{heap={9=8}, newFree=10}
+-------------------------
+31
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(0int), counter=9}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7, 8]
+FileTable: []
+Heap: MyHeap{heap={9=8}, newFree=10}
+-------------------------
+32
+
+ExeStack: stack=[(HeapAllocStmt{id='a', expression=counter} print(RHExp{expression=a}))]
+SymTable: dictionary={a=RefValue(0int), counter=9}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7, 8]
+FileTable: []
+Heap: MyHeap{heap={9=8}, newFree=10}
+-------------------------
+11
+
+ExeStack: stack=[WhileStmt{expression=counter<10, statement=(statements.ForkStatement@300ffa5d counter=counter+1)}]
+SymTable: dictionary={a=RefValue(0int), counter=10}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7, 8]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=10}
+-------------------------
+31
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(0int), counter=9}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7, 8]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=10}
+-------------------------
+32
+
+ExeStack: stack=[(HeapAllocStmt{id='a', expression=counter} print(RHExp{expression=a}))]
+SymTable: dictionary={a=RefValue(0int), counter=9}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7, 8]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=10}
+-------------------------
+11
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(0int), counter=10}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7, 8]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=10}
+-------------------------
+32
+
+ExeStack: stack=[print(RHExp{expression=a}), HeapAllocStmt{id='a', expression=counter}]
+SymTable: dictionary={a=RefValue(0int), counter=9}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7, 8]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=10}
+-------------------------
+11
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(0int), counter=10}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7, 8]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=10}
+-------------------------
+32
+
+ExeStack: stack=[print(RHExp{expression=a}), HeapAllocStmt{id='a', expression=counter}]
+SymTable: dictionary={a=RefValue(0int), counter=9}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7, 8]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=10}
+-------------------------
+32
+
+ExeStack: stack=[print(RHExp{expression=a})]
+SymTable: dictionary={a=RefValue(10int), counter=9}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7, 8]
+FileTable: []
+Heap: MyHeap{heap={10=9}, newFree=11}
+-------------------------
+32
+
+ExeStack: stack=[print(RHExp{expression=a})]
+SymTable: dictionary={a=RefValue(10int), counter=9}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7, 8]
+FileTable: []
+Heap: MyHeap{heap={10=9}, newFree=11}
+-------------------------
+32
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(10int), counter=9}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+FileTable: []
+Heap: MyHeap{heap={10=9}, newFree=11}
+-------------------------
+32
+
+ExeStack: stack=[]
+SymTable: dictionary={a=RefValue(10int), counter=9}
+Out: list=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+FileTable: []
+Heap: MyHeap{heap={10=9}, newFree=11}
+-------------------------

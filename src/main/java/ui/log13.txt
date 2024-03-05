@@ -1,0 +1,1680 @@
+12
+
+ExeStack: stack=[(int x; (int y; (rep (Fork (print(v) v=v-1) v=v+1)until v==3 (x=1 (no operation (y=3 (no operation print(v*10)))))))), int v;]
+SymTable: dictionary={}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(int x; (int y; (rep (Fork (print(v) v=v-1) v=v+1)until v==3 (x=1 (no operation (y=3 (no operation print(v*10))))))))]
+SymTable: dictionary={v=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(int y; (rep (Fork (print(v) v=v-1) v=v+1)until v==3 (x=1 (no operation (y=3 (no operation print(v*10))))))), int x;]
+SymTable: dictionary={v=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(int y; (rep (Fork (print(v) v=v-1) v=v+1)until v==3 (x=1 (no operation (y=3 (no operation print(v*10)))))))]
+SymTable: dictionary={v=0, x=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(rep (Fork (print(v) v=v-1) v=v+1)until v==3 (x=1 (no operation (y=3 (no operation print(v*10)))))), int y;]
+SymTable: dictionary={v=0, x=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(rep (Fork (print(v) v=v-1) v=v+1)until v==3 (x=1 (no operation (y=3 (no operation print(v*10))))))]
+SymTable: dictionary={v=0, x=0, y=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(x=1 (no operation (y=3 (no operation print(v*10))))), rep (Fork (print(v) v=v-1) v=v+1)until v==3]
+SymTable: dictionary={v=0, x=0, y=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(x=1 (no operation (y=3 (no operation print(v*10))))), ((Fork (print(v) v=v-1) v=v+1) WhileStmt{expression=not v==3, statement=(Fork (print(v) v=v-1) v=v+1)})]
+SymTable: dictionary={v=0, x=0, y=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(x=1 (no operation (y=3 (no operation print(v*10))))), WhileStmt{expression=not v==3, statement=(Fork (print(v) v=v-1) v=v+1)}, (Fork (print(v) v=v-1) v=v+1)]
+SymTable: dictionary={v=0, x=0, y=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(x=1 (no operation (y=3 (no operation print(v*10))))), WhileStmt{expression=not v==3, statement=(Fork (print(v) v=v-1) v=v+1)}, v=v+1, Fork (print(v) v=v-1)]
+SymTable: dictionary={v=0, x=0, y=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(x=1 (no operation (y=3 (no operation print(v*10))))), WhileStmt{expression=not v==3, statement=(Fork (print(v) v=v-1) v=v+1)}, v=v+1]
+SymTable: dictionary={v=0, x=0, y=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+13
+
+ExeStack: stack=[(print(v) v=v-1)]
+SymTable: dictionary={v=0, x=0, y=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(x=1 (no operation (y=3 (no operation print(v*10))))), WhileStmt{expression=not v==3, statement=(Fork (print(v) v=v-1) v=v+1)}]
+SymTable: dictionary={v=1, x=0, y=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+13
+
+ExeStack: stack=[v=v-1, print(v)]
+SymTable: dictionary={v=0, x=0, y=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(x=1 (no operation (y=3 (no operation print(v*10))))), WhileStmt{expression=not v==3, statement=(Fork (print(v) v=v-1) v=v+1)}, (Fork (print(v) v=v-1) v=v+1)]
+SymTable: dictionary={v=1, x=0, y=0}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+13
+
+ExeStack: stack=[v=v-1]
+SymTable: dictionary={v=0, x=0, y=0}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(x=1 (no operation (y=3 (no operation print(v*10))))), WhileStmt{expression=not v==3, statement=(Fork (print(v) v=v-1) v=v+1)}, v=v+1, Fork (print(v) v=v-1)]
+SymTable: dictionary={v=1, x=0, y=0}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+13
+
+ExeStack: stack=[]
+SymTable: dictionary={v=-1, x=0, y=0}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(x=1 (no operation (y=3 (no operation print(v*10))))), WhileStmt{expression=not v==3, statement=(Fork (print(v) v=v-1) v=v+1)}, v=v+1]
+SymTable: dictionary={v=1, x=0, y=0}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+14
+
+ExeStack: stack=[(print(v) v=v-1)]
+SymTable: dictionary={v=1, x=0, y=0}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(x=1 (no operation (y=3 (no operation print(v*10))))), WhileStmt{expression=not v==3, statement=(Fork (print(v) v=v-1) v=v+1)}]
+SymTable: dictionary={v=2, x=0, y=0}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+14
+
+ExeStack: stack=[v=v-1, print(v)]
+SymTable: dictionary={v=1, x=0, y=0}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(x=1 (no operation (y=3 (no operation print(v*10))))), WhileStmt{expression=not v==3, statement=(Fork (print(v) v=v-1) v=v+1)}, (Fork (print(v) v=v-1) v=v+1)]
+SymTable: dictionary={v=2, x=0, y=0}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+14
+
+ExeStack: stack=[v=v-1]
+SymTable: dictionary={v=1, x=0, y=0}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(x=1 (no operation (y=3 (no operation print(v*10))))), WhileStmt{expression=not v==3, statement=(Fork (print(v) v=v-1) v=v+1)}, v=v+1, Fork (print(v) v=v-1)]
+SymTable: dictionary={v=2, x=0, y=0}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+14
+
+ExeStack: stack=[]
+SymTable: dictionary={v=0, x=0, y=0}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(x=1 (no operation (y=3 (no operation print(v*10))))), WhileStmt{expression=not v==3, statement=(Fork (print(v) v=v-1) v=v+1)}, v=v+1]
+SymTable: dictionary={v=2, x=0, y=0}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+15
+
+ExeStack: stack=[(print(v) v=v-1)]
+SymTable: dictionary={v=2, x=0, y=0}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(x=1 (no operation (y=3 (no operation print(v*10))))), WhileStmt{expression=not v==3, statement=(Fork (print(v) v=v-1) v=v+1)}]
+SymTable: dictionary={v=3, x=0, y=0}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+15
+
+ExeStack: stack=[v=v-1, print(v)]
+SymTable: dictionary={v=2, x=0, y=0}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(x=1 (no operation (y=3 (no operation print(v*10)))))]
+SymTable: dictionary={v=3, x=0, y=0}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+15
+
+ExeStack: stack=[v=v-1]
+SymTable: dictionary={v=2, x=0, y=0}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(no operation (y=3 (no operation print(v*10)))), x=1]
+SymTable: dictionary={v=3, x=0, y=0}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+15
+
+ExeStack: stack=[]
+SymTable: dictionary={v=1, x=0, y=0}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(no operation (y=3 (no operation print(v*10))))]
+SymTable: dictionary={v=3, x=1, y=0}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(y=3 (no operation print(v*10))), no operation]
+SymTable: dictionary={v=3, x=1, y=0}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(y=3 (no operation print(v*10)))]
+SymTable: dictionary={v=3, x=1, y=0}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(no operation print(v*10)), y=3]
+SymTable: dictionary={v=3, x=1, y=0}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(no operation print(v*10))]
+SymTable: dictionary={v=3, x=1, y=3}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[print(v*10), no operation]
+SymTable: dictionary={v=3, x=1, y=3}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[print(v*10)]
+SymTable: dictionary={v=3, x=1, y=3}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[]
+SymTable: dictionary={v=3, x=1, y=3}
+Out: list=[0, 1, 2, 30]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(int x; (int y; (rep (Fork (print(v) v=v-1) v=v+1)until v==3 (x=1 (no operation (y=3 (no operation print(v*10)))))))), int v;]
+SymTable: dictionary={}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(int x; (int y; (rep (Fork (print(v) v=v-1) v=v+1)until v==3 (x=1 (no operation (y=3 (no operation print(v*10))))))))]
+SymTable: dictionary={v=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(int y; (rep (Fork (print(v) v=v-1) v=v+1)until v==3 (x=1 (no operation (y=3 (no operation print(v*10))))))), int x;]
+SymTable: dictionary={v=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(int y; (rep (Fork (print(v) v=v-1) v=v+1)until v==3 (x=1 (no operation (y=3 (no operation print(v*10)))))))]
+SymTable: dictionary={v=0, x=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(rep (Fork (print(v) v=v-1) v=v+1)until v==3 (x=1 (no operation (y=3 (no operation print(v*10)))))), int y;]
+SymTable: dictionary={v=0, x=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(rep (Fork (print(v) v=v-1) v=v+1)until v==3 (x=1 (no operation (y=3 (no operation print(v*10))))))]
+SymTable: dictionary={v=0, x=0, y=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(x=1 (no operation (y=3 (no operation print(v*10))))), rep (Fork (print(v) v=v-1) v=v+1)until v==3]
+SymTable: dictionary={v=0, x=0, y=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(x=1 (no operation (y=3 (no operation print(v*10))))), ((Fork (print(v) v=v-1) v=v+1) WhileStmt{expression=not v==3, statement=(Fork (print(v) v=v-1) v=v+1)})]
+SymTable: dictionary={v=0, x=0, y=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(x=1 (no operation (y=3 (no operation print(v*10))))), WhileStmt{expression=not v==3, statement=(Fork (print(v) v=v-1) v=v+1)}, (Fork (print(v) v=v-1) v=v+1)]
+SymTable: dictionary={v=0, x=0, y=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(x=1 (no operation (y=3 (no operation print(v*10))))), WhileStmt{expression=not v==3, statement=(Fork (print(v) v=v-1) v=v+1)}, v=v+1, Fork (print(v) v=v-1)]
+SymTable: dictionary={v=0, x=0, y=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(x=1 (no operation (y=3 (no operation print(v*10))))), WhileStmt{expression=not v==3, statement=(Fork (print(v) v=v-1) v=v+1)}, v=v+1]
+SymTable: dictionary={v=0, x=0, y=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+13
+
+ExeStack: stack=[(print(v) v=v-1)]
+SymTable: dictionary={v=0, x=0, y=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(x=1 (no operation (y=3 (no operation print(v*10))))), WhileStmt{expression=not v==3, statement=(Fork (print(v) v=v-1) v=v+1)}]
+SymTable: dictionary={v=1, x=0, y=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+13
+
+ExeStack: stack=[v=v-1, print(v)]
+SymTable: dictionary={v=0, x=0, y=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(x=1 (no operation (y=3 (no operation print(v*10))))), WhileStmt{expression=not v==3, statement=(Fork (print(v) v=v-1) v=v+1)}, (Fork (print(v) v=v-1) v=v+1)]
+SymTable: dictionary={v=1, x=0, y=0}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+13
+
+ExeStack: stack=[v=v-1]
+SymTable: dictionary={v=0, x=0, y=0}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(x=1 (no operation (y=3 (no operation print(v*10))))), WhileStmt{expression=not v==3, statement=(Fork (print(v) v=v-1) v=v+1)}, v=v+1, Fork (print(v) v=v-1)]
+SymTable: dictionary={v=1, x=0, y=0}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+13
+
+ExeStack: stack=[]
+SymTable: dictionary={v=-1, x=0, y=0}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(x=1 (no operation (y=3 (no operation print(v*10))))), WhileStmt{expression=not v==3, statement=(Fork (print(v) v=v-1) v=v+1)}, v=v+1]
+SymTable: dictionary={v=1, x=0, y=0}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+14
+
+ExeStack: stack=[(print(v) v=v-1)]
+SymTable: dictionary={v=1, x=0, y=0}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(x=1 (no operation (y=3 (no operation print(v*10))))), WhileStmt{expression=not v==3, statement=(Fork (print(v) v=v-1) v=v+1)}]
+SymTable: dictionary={v=2, x=0, y=0}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+14
+
+ExeStack: stack=[v=v-1, print(v)]
+SymTable: dictionary={v=1, x=0, y=0}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(x=1 (no operation (y=3 (no operation print(v*10))))), WhileStmt{expression=not v==3, statement=(Fork (print(v) v=v-1) v=v+1)}, (Fork (print(v) v=v-1) v=v+1)]
+SymTable: dictionary={v=2, x=0, y=0}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+14
+
+ExeStack: stack=[v=v-1]
+SymTable: dictionary={v=1, x=0, y=0}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(x=1 (no operation (y=3 (no operation print(v*10))))), WhileStmt{expression=not v==3, statement=(Fork (print(v) v=v-1) v=v+1)}, v=v+1, Fork (print(v) v=v-1)]
+SymTable: dictionary={v=2, x=0, y=0}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+14
+
+ExeStack: stack=[]
+SymTable: dictionary={v=0, x=0, y=0}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(x=1 (no operation (y=3 (no operation print(v*10))))), WhileStmt{expression=not v==3, statement=(Fork (print(v) v=v-1) v=v+1)}, v=v+1]
+SymTable: dictionary={v=2, x=0, y=0}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+15
+
+ExeStack: stack=[(print(v) v=v-1)]
+SymTable: dictionary={v=2, x=0, y=0}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(x=1 (no operation (y=3 (no operation print(v*10))))), WhileStmt{expression=not v==3, statement=(Fork (print(v) v=v-1) v=v+1)}]
+SymTable: dictionary={v=3, x=0, y=0}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+15
+
+ExeStack: stack=[v=v-1, print(v)]
+SymTable: dictionary={v=2, x=0, y=0}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(x=1 (no operation (y=3 (no operation print(v*10)))))]
+SymTable: dictionary={v=3, x=0, y=0}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+15
+
+ExeStack: stack=[v=v-1]
+SymTable: dictionary={v=2, x=0, y=0}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(no operation (y=3 (no operation print(v*10)))), x=1]
+SymTable: dictionary={v=3, x=0, y=0}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+15
+
+ExeStack: stack=[]
+SymTable: dictionary={v=1, x=0, y=0}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(no operation (y=3 (no operation print(v*10))))]
+SymTable: dictionary={v=3, x=1, y=0}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(y=3 (no operation print(v*10))), no operation]
+SymTable: dictionary={v=3, x=1, y=0}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(y=3 (no operation print(v*10)))]
+SymTable: dictionary={v=3, x=1, y=0}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(no operation print(v*10)), y=3]
+SymTable: dictionary={v=3, x=1, y=0}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(no operation print(v*10))]
+SymTable: dictionary={v=3, x=1, y=3}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[print(v*10), no operation]
+SymTable: dictionary={v=3, x=1, y=3}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[print(v*10)]
+SymTable: dictionary={v=3, x=1, y=3}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[]
+SymTable: dictionary={v=3, x=1, y=3}
+Out: list=[0, 1, 2, 30]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(int x; (int y; (rep (Fork (print(v) v=v-1) v=v+1)until v==3 (x=1 (no operation (y=3 (no operation print(v*10)))))))), int v;]
+SymTable: dictionary={}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(int x; (int y; (rep (Fork (print(v) v=v-1) v=v+1)until v==3 (x=1 (no operation (y=3 (no operation print(v*10))))))))]
+SymTable: dictionary={v=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(int y; (rep (Fork (print(v) v=v-1) v=v+1)until v==3 (x=1 (no operation (y=3 (no operation print(v*10))))))), int x;]
+SymTable: dictionary={v=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(int y; (rep (Fork (print(v) v=v-1) v=v+1)until v==3 (x=1 (no operation (y=3 (no operation print(v*10)))))))]
+SymTable: dictionary={v=0, x=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(rep (Fork (print(v) v=v-1) v=v+1)until v==3 (x=1 (no operation (y=3 (no operation print(v*10)))))), int y;]
+SymTable: dictionary={v=0, x=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(rep (Fork (print(v) v=v-1) v=v+1)until v==3 (x=1 (no operation (y=3 (no operation print(v*10))))))]
+SymTable: dictionary={v=0, x=0, y=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(x=1 (no operation (y=3 (no operation print(v*10))))), rep (Fork (print(v) v=v-1) v=v+1)until v==3]
+SymTable: dictionary={v=0, x=0, y=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(x=1 (no operation (y=3 (no operation print(v*10))))), ((Fork (print(v) v=v-1) v=v+1) WhileStmt{expression=not v==3, statement=(Fork (print(v) v=v-1) v=v+1)})]
+SymTable: dictionary={v=0, x=0, y=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(x=1 (no operation (y=3 (no operation print(v*10))))), WhileStmt{expression=not v==3, statement=(Fork (print(v) v=v-1) v=v+1)}, (Fork (print(v) v=v-1) v=v+1)]
+SymTable: dictionary={v=0, x=0, y=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(x=1 (no operation (y=3 (no operation print(v*10))))), WhileStmt{expression=not v==3, statement=(Fork (print(v) v=v-1) v=v+1)}, v=v+1, Fork (print(v) v=v-1)]
+SymTable: dictionary={v=0, x=0, y=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(x=1 (no operation (y=3 (no operation print(v*10))))), WhileStmt{expression=not v==3, statement=(Fork (print(v) v=v-1) v=v+1)}, v=v+1]
+SymTable: dictionary={v=0, x=0, y=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+13
+
+ExeStack: stack=[(print(v) v=v-1)]
+SymTable: dictionary={v=0, x=0, y=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(x=1 (no operation (y=3 (no operation print(v*10))))), WhileStmt{expression=not v==3, statement=(Fork (print(v) v=v-1) v=v+1)}]
+SymTable: dictionary={v=1, x=0, y=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+13
+
+ExeStack: stack=[v=v-1, print(v)]
+SymTable: dictionary={v=0, x=0, y=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(x=1 (no operation (y=3 (no operation print(v*10))))), WhileStmt{expression=not v==3, statement=(Fork (print(v) v=v-1) v=v+1)}, (Fork (print(v) v=v-1) v=v+1)]
+SymTable: dictionary={v=1, x=0, y=0}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+13
+
+ExeStack: stack=[v=v-1]
+SymTable: dictionary={v=0, x=0, y=0}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(x=1 (no operation (y=3 (no operation print(v*10))))), WhileStmt{expression=not v==3, statement=(Fork (print(v) v=v-1) v=v+1)}, v=v+1, Fork (print(v) v=v-1)]
+SymTable: dictionary={v=1, x=0, y=0}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+13
+
+ExeStack: stack=[]
+SymTable: dictionary={v=-1, x=0, y=0}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(x=1 (no operation (y=3 (no operation print(v*10))))), WhileStmt{expression=not v==3, statement=(Fork (print(v) v=v-1) v=v+1)}, v=v+1]
+SymTable: dictionary={v=1, x=0, y=0}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+14
+
+ExeStack: stack=[(print(v) v=v-1)]
+SymTable: dictionary={v=1, x=0, y=0}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(x=1 (no operation (y=3 (no operation print(v*10))))), WhileStmt{expression=not v==3, statement=(Fork (print(v) v=v-1) v=v+1)}]
+SymTable: dictionary={v=2, x=0, y=0}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+14
+
+ExeStack: stack=[v=v-1, print(v)]
+SymTable: dictionary={v=1, x=0, y=0}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(x=1 (no operation (y=3 (no operation print(v*10))))), WhileStmt{expression=not v==3, statement=(Fork (print(v) v=v-1) v=v+1)}, (Fork (print(v) v=v-1) v=v+1)]
+SymTable: dictionary={v=2, x=0, y=0}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+14
+
+ExeStack: stack=[v=v-1]
+SymTable: dictionary={v=1, x=0, y=0}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(x=1 (no operation (y=3 (no operation print(v*10))))), WhileStmt{expression=not v==3, statement=(Fork (print(v) v=v-1) v=v+1)}, v=v+1, Fork (print(v) v=v-1)]
+SymTable: dictionary={v=2, x=0, y=0}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+14
+
+ExeStack: stack=[]
+SymTable: dictionary={v=0, x=0, y=0}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(x=1 (no operation (y=3 (no operation print(v*10))))), WhileStmt{expression=not v==3, statement=(Fork (print(v) v=v-1) v=v+1)}, v=v+1]
+SymTable: dictionary={v=2, x=0, y=0}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+15
+
+ExeStack: stack=[(print(v) v=v-1)]
+SymTable: dictionary={v=2, x=0, y=0}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(x=1 (no operation (y=3 (no operation print(v*10))))), WhileStmt{expression=not v==3, statement=(Fork (print(v) v=v-1) v=v+1)}]
+SymTable: dictionary={v=3, x=0, y=0}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+15
+
+ExeStack: stack=[v=v-1, print(v)]
+SymTable: dictionary={v=2, x=0, y=0}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(x=1 (no operation (y=3 (no operation print(v*10)))))]
+SymTable: dictionary={v=3, x=0, y=0}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+15
+
+ExeStack: stack=[v=v-1]
+SymTable: dictionary={v=2, x=0, y=0}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(no operation (y=3 (no operation print(v*10)))), x=1]
+SymTable: dictionary={v=3, x=0, y=0}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+15
+
+ExeStack: stack=[]
+SymTable: dictionary={v=1, x=0, y=0}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(no operation (y=3 (no operation print(v*10))))]
+SymTable: dictionary={v=3, x=1, y=0}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(y=3 (no operation print(v*10))), no operation]
+SymTable: dictionary={v=3, x=1, y=0}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(y=3 (no operation print(v*10)))]
+SymTable: dictionary={v=3, x=1, y=0}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(no operation print(v*10)), y=3]
+SymTable: dictionary={v=3, x=1, y=0}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(no operation print(v*10))]
+SymTable: dictionary={v=3, x=1, y=3}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[print(v*10), no operation]
+SymTable: dictionary={v=3, x=1, y=3}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[print(v*10)]
+SymTable: dictionary={v=3, x=1, y=3}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[]
+SymTable: dictionary={v=3, x=1, y=3}
+Out: list=[0, 1, 2, 30]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(int x; (int y; (rep (Fork (print(v) v=v-1) v=v+1)until v==3 (x=1 (no operation (y=3 (no operation print(v*10)))))))), int v;]
+SymTable: dictionary={}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(int x; (int y; (rep (Fork (print(v) v=v-1) v=v+1)until v==3 (x=1 (no operation (y=3 (no operation print(v*10))))))))]
+SymTable: dictionary={v=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(int y; (rep (Fork (print(v) v=v-1) v=v+1)until v==3 (x=1 (no operation (y=3 (no operation print(v*10))))))), int x;]
+SymTable: dictionary={v=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(int y; (rep (Fork (print(v) v=v-1) v=v+1)until v==3 (x=1 (no operation (y=3 (no operation print(v*10)))))))]
+SymTable: dictionary={v=0, x=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(rep (Fork (print(v) v=v-1) v=v+1)until v==3 (x=1 (no operation (y=3 (no operation print(v*10)))))), int y;]
+SymTable: dictionary={v=0, x=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(rep (Fork (print(v) v=v-1) v=v+1)until v==3 (x=1 (no operation (y=3 (no operation print(v*10))))))]
+SymTable: dictionary={v=0, x=0, y=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(x=1 (no operation (y=3 (no operation print(v*10))))), rep (Fork (print(v) v=v-1) v=v+1)until v==3]
+SymTable: dictionary={v=0, x=0, y=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(x=1 (no operation (y=3 (no operation print(v*10))))), ((Fork (print(v) v=v-1) v=v+1) WhileStmt{expression=not v==3, statement=(Fork (print(v) v=v-1) v=v+1)})]
+SymTable: dictionary={v=0, x=0, y=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(x=1 (no operation (y=3 (no operation print(v*10))))), WhileStmt{expression=not v==3, statement=(Fork (print(v) v=v-1) v=v+1)}, (Fork (print(v) v=v-1) v=v+1)]
+SymTable: dictionary={v=0, x=0, y=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(x=1 (no operation (y=3 (no operation print(v*10))))), WhileStmt{expression=not v==3, statement=(Fork (print(v) v=v-1) v=v+1)}, v=v+1, Fork (print(v) v=v-1)]
+SymTable: dictionary={v=0, x=0, y=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(x=1 (no operation (y=3 (no operation print(v*10))))), WhileStmt{expression=not v==3, statement=(Fork (print(v) v=v-1) v=v+1)}, v=v+1]
+SymTable: dictionary={v=0, x=0, y=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+13
+
+ExeStack: stack=[(print(v) v=v-1)]
+SymTable: dictionary={v=0, x=0, y=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(x=1 (no operation (y=3 (no operation print(v*10))))), WhileStmt{expression=not v==3, statement=(Fork (print(v) v=v-1) v=v+1)}]
+SymTable: dictionary={v=1, x=0, y=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+13
+
+ExeStack: stack=[v=v-1, print(v)]
+SymTable: dictionary={v=0, x=0, y=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(x=1 (no operation (y=3 (no operation print(v*10))))), WhileStmt{expression=not v==3, statement=(Fork (print(v) v=v-1) v=v+1)}, (Fork (print(v) v=v-1) v=v+1)]
+SymTable: dictionary={v=1, x=0, y=0}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+13
+
+ExeStack: stack=[v=v-1]
+SymTable: dictionary={v=0, x=0, y=0}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(x=1 (no operation (y=3 (no operation print(v*10))))), WhileStmt{expression=not v==3, statement=(Fork (print(v) v=v-1) v=v+1)}, v=v+1, Fork (print(v) v=v-1)]
+SymTable: dictionary={v=1, x=0, y=0}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+13
+
+ExeStack: stack=[]
+SymTable: dictionary={v=-1, x=0, y=0}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(x=1 (no operation (y=3 (no operation print(v*10))))), WhileStmt{expression=not v==3, statement=(Fork (print(v) v=v-1) v=v+1)}, v=v+1]
+SymTable: dictionary={v=1, x=0, y=0}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+14
+
+ExeStack: stack=[(print(v) v=v-1)]
+SymTable: dictionary={v=1, x=0, y=0}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(x=1 (no operation (y=3 (no operation print(v*10))))), WhileStmt{expression=not v==3, statement=(Fork (print(v) v=v-1) v=v+1)}]
+SymTable: dictionary={v=2, x=0, y=0}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+14
+
+ExeStack: stack=[v=v-1, print(v)]
+SymTable: dictionary={v=1, x=0, y=0}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(x=1 (no operation (y=3 (no operation print(v*10))))), WhileStmt{expression=not v==3, statement=(Fork (print(v) v=v-1) v=v+1)}, (Fork (print(v) v=v-1) v=v+1)]
+SymTable: dictionary={v=2, x=0, y=0}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+14
+
+ExeStack: stack=[v=v-1]
+SymTable: dictionary={v=1, x=0, y=0}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(x=1 (no operation (y=3 (no operation print(v*10))))), WhileStmt{expression=not v==3, statement=(Fork (print(v) v=v-1) v=v+1)}, v=v+1, Fork (print(v) v=v-1)]
+SymTable: dictionary={v=2, x=0, y=0}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+14
+
+ExeStack: stack=[]
+SymTable: dictionary={v=0, x=0, y=0}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(x=1 (no operation (y=3 (no operation print(v*10))))), WhileStmt{expression=not v==3, statement=(Fork (print(v) v=v-1) v=v+1)}, v=v+1]
+SymTable: dictionary={v=2, x=0, y=0}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+15
+
+ExeStack: stack=[(print(v) v=v-1)]
+SymTable: dictionary={v=2, x=0, y=0}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(x=1 (no operation (y=3 (no operation print(v*10))))), WhileStmt{expression=not v==3, statement=(Fork (print(v) v=v-1) v=v+1)}]
+SymTable: dictionary={v=3, x=0, y=0}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+15
+
+ExeStack: stack=[v=v-1, print(v)]
+SymTable: dictionary={v=2, x=0, y=0}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(x=1 (no operation (y=3 (no operation print(v*10)))))]
+SymTable: dictionary={v=3, x=0, y=0}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+15
+
+ExeStack: stack=[v=v-1]
+SymTable: dictionary={v=2, x=0, y=0}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(no operation (y=3 (no operation print(v*10)))), x=1]
+SymTable: dictionary={v=3, x=0, y=0}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+15
+
+ExeStack: stack=[]
+SymTable: dictionary={v=1, x=0, y=0}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(no operation (y=3 (no operation print(v*10))))]
+SymTable: dictionary={v=3, x=1, y=0}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(y=3 (no operation print(v*10))), no operation]
+SymTable: dictionary={v=3, x=1, y=0}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(y=3 (no operation print(v*10)))]
+SymTable: dictionary={v=3, x=1, y=0}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(no operation print(v*10)), y=3]
+SymTable: dictionary={v=3, x=1, y=0}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(no operation print(v*10))]
+SymTable: dictionary={v=3, x=1, y=3}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[print(v*10), no operation]
+SymTable: dictionary={v=3, x=1, y=3}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[print(v*10)]
+SymTable: dictionary={v=3, x=1, y=3}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[]
+SymTable: dictionary={v=3, x=1, y=3}
+Out: list=[0, 1, 2, 30]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(int x; (int y; (rep (Fork (print(v) v=v-1) v=v+1)until v==3 (x=1 (no operation (y=3 (no operation print(v*10)))))))), int v;]
+SymTable: dictionary={}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(int x; (int y; (rep (Fork (print(v) v=v-1) v=v+1)until v==3 (x=1 (no operation (y=3 (no operation print(v*10))))))))]
+SymTable: dictionary={v=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(int y; (rep (Fork (print(v) v=v-1) v=v+1)until v==3 (x=1 (no operation (y=3 (no operation print(v*10))))))), int x;]
+SymTable: dictionary={v=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(int y; (rep (Fork (print(v) v=v-1) v=v+1)until v==3 (x=1 (no operation (y=3 (no operation print(v*10)))))))]
+SymTable: dictionary={v=0, x=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(rep (Fork (print(v) v=v-1) v=v+1)until v==3 (x=1 (no operation (y=3 (no operation print(v*10)))))), int y;]
+SymTable: dictionary={v=0, x=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(rep (Fork (print(v) v=v-1) v=v+1)until v==3 (x=1 (no operation (y=3 (no operation print(v*10))))))]
+SymTable: dictionary={v=0, x=0, y=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(x=1 (no operation (y=3 (no operation print(v*10))))), rep (Fork (print(v) v=v-1) v=v+1)until v==3]
+SymTable: dictionary={v=0, x=0, y=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(x=1 (no operation (y=3 (no operation print(v*10))))), ((Fork (print(v) v=v-1) v=v+1) WhileStmt{expression=not v==3, statement=(Fork (print(v) v=v-1) v=v+1)})]
+SymTable: dictionary={v=0, x=0, y=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(x=1 (no operation (y=3 (no operation print(v*10))))), WhileStmt{expression=not v==3, statement=(Fork (print(v) v=v-1) v=v+1)}, (Fork (print(v) v=v-1) v=v+1)]
+SymTable: dictionary={v=0, x=0, y=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(x=1 (no operation (y=3 (no operation print(v*10))))), WhileStmt{expression=not v==3, statement=(Fork (print(v) v=v-1) v=v+1)}, v=v+1, Fork (print(v) v=v-1)]
+SymTable: dictionary={v=0, x=0, y=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(x=1 (no operation (y=3 (no operation print(v*10))))), WhileStmt{expression=not v==3, statement=(Fork (print(v) v=v-1) v=v+1)}, v=v+1]
+SymTable: dictionary={v=0, x=0, y=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+13
+
+ExeStack: stack=[(print(v) v=v-1)]
+SymTable: dictionary={v=0, x=0, y=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(x=1 (no operation (y=3 (no operation print(v*10))))), WhileStmt{expression=not v==3, statement=(Fork (print(v) v=v-1) v=v+1)}]
+SymTable: dictionary={v=1, x=0, y=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+13
+
+ExeStack: stack=[v=v-1, print(v)]
+SymTable: dictionary={v=0, x=0, y=0}
+Out: list=[]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(x=1 (no operation (y=3 (no operation print(v*10))))), WhileStmt{expression=not v==3, statement=(Fork (print(v) v=v-1) v=v+1)}, (Fork (print(v) v=v-1) v=v+1)]
+SymTable: dictionary={v=1, x=0, y=0}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+13
+
+ExeStack: stack=[v=v-1]
+SymTable: dictionary={v=0, x=0, y=0}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(x=1 (no operation (y=3 (no operation print(v*10))))), WhileStmt{expression=not v==3, statement=(Fork (print(v) v=v-1) v=v+1)}, v=v+1, Fork (print(v) v=v-1)]
+SymTable: dictionary={v=1, x=0, y=0}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+13
+
+ExeStack: stack=[]
+SymTable: dictionary={v=-1, x=0, y=0}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(x=1 (no operation (y=3 (no operation print(v*10))))), WhileStmt{expression=not v==3, statement=(Fork (print(v) v=v-1) v=v+1)}, v=v+1]
+SymTable: dictionary={v=1, x=0, y=0}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+14
+
+ExeStack: stack=[(print(v) v=v-1)]
+SymTable: dictionary={v=1, x=0, y=0}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(x=1 (no operation (y=3 (no operation print(v*10))))), WhileStmt{expression=not v==3, statement=(Fork (print(v) v=v-1) v=v+1)}]
+SymTable: dictionary={v=2, x=0, y=0}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+14
+
+ExeStack: stack=[v=v-1, print(v)]
+SymTable: dictionary={v=1, x=0, y=0}
+Out: list=[0]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(x=1 (no operation (y=3 (no operation print(v*10))))), WhileStmt{expression=not v==3, statement=(Fork (print(v) v=v-1) v=v+1)}, (Fork (print(v) v=v-1) v=v+1)]
+SymTable: dictionary={v=2, x=0, y=0}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+14
+
+ExeStack: stack=[v=v-1]
+SymTable: dictionary={v=1, x=0, y=0}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(x=1 (no operation (y=3 (no operation print(v*10))))), WhileStmt{expression=not v==3, statement=(Fork (print(v) v=v-1) v=v+1)}, v=v+1, Fork (print(v) v=v-1)]
+SymTable: dictionary={v=2, x=0, y=0}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+14
+
+ExeStack: stack=[]
+SymTable: dictionary={v=0, x=0, y=0}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(x=1 (no operation (y=3 (no operation print(v*10))))), WhileStmt{expression=not v==3, statement=(Fork (print(v) v=v-1) v=v+1)}, v=v+1]
+SymTable: dictionary={v=2, x=0, y=0}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+15
+
+ExeStack: stack=[(print(v) v=v-1)]
+SymTable: dictionary={v=2, x=0, y=0}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(x=1 (no operation (y=3 (no operation print(v*10))))), WhileStmt{expression=not v==3, statement=(Fork (print(v) v=v-1) v=v+1)}]
+SymTable: dictionary={v=3, x=0, y=0}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+15
+
+ExeStack: stack=[v=v-1, print(v)]
+SymTable: dictionary={v=2, x=0, y=0}
+Out: list=[0, 1]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(x=1 (no operation (y=3 (no operation print(v*10)))))]
+SymTable: dictionary={v=3, x=0, y=0}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+15
+
+ExeStack: stack=[v=v-1]
+SymTable: dictionary={v=2, x=0, y=0}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(no operation (y=3 (no operation print(v*10)))), x=1]
+SymTable: dictionary={v=3, x=0, y=0}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+15
+
+ExeStack: stack=[]
+SymTable: dictionary={v=1, x=0, y=0}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(no operation (y=3 (no operation print(v*10))))]
+SymTable: dictionary={v=3, x=1, y=0}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(y=3 (no operation print(v*10))), no operation]
+SymTable: dictionary={v=3, x=1, y=0}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(y=3 (no operation print(v*10)))]
+SymTable: dictionary={v=3, x=1, y=0}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(no operation print(v*10)), y=3]
+SymTable: dictionary={v=3, x=1, y=0}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[(no operation print(v*10))]
+SymTable: dictionary={v=3, x=1, y=3}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[print(v*10), no operation]
+SymTable: dictionary={v=3, x=1, y=3}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[print(v*10)]
+SymTable: dictionary={v=3, x=1, y=3}
+Out: list=[0, 1, 2]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------
+12
+
+ExeStack: stack=[]
+SymTable: dictionary={v=3, x=1, y=3}
+Out: list=[0, 1, 2, 30]
+FileTable: []
+Heap: MyHeap{heap={}, newFree=1}
+-------------------------

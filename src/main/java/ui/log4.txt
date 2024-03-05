@@ -1,0 +1,335 @@
+
+ExeStack:
+(string varf; (varf=C:\Users\Asus\IdeaProjects\A2\src\ui\test.in (statements.OpenFileStmt@2dda6444 (int varc; (statements.ReadFileStmt@5e9f23b4 (print(varc) (statements.ReadFileStmt@4783da3f (print(varc) statements.CloseFileStmt@378fd1ac))))))))
+SymTable:
+Out:
+FileTable:
+[]
+-------------------------
+ExeStack:
+(varf=C:\Users\Asus\IdeaProjects\A2\src\ui\test.in (statements.OpenFileStmt@2dda6444 (int varc; (statements.ReadFileStmt@5e9f23b4 (print(varc) (statements.ReadFileStmt@4783da3f (print(varc) statements.CloseFileStmt@378fd1ac)))))))
+string varf;
+SymTable:
+Out:
+FileTable:
+[]
+-------------------------
+ExeStack:
+(varf=C:\Users\Asus\IdeaProjects\A2\src\ui\test.in (statements.OpenFileStmt@2dda6444 (int varc; (statements.ReadFileStmt@5e9f23b4 (print(varc) (statements.ReadFileStmt@4783da3f (print(varc) statements.CloseFileStmt@378fd1ac)))))))
+SymTable:
+varf=
+Out:
+FileTable:
+[]
+-------------------------
+ExeStack:
+(statements.OpenFileStmt@2dda6444 (int varc; (statements.ReadFileStmt@5e9f23b4 (print(varc) (statements.ReadFileStmt@4783da3f (print(varc) statements.CloseFileStmt@378fd1ac))))))
+varf=C:\Users\Asus\IdeaProjects\A2\src\ui\test.in
+SymTable:
+varf=
+Out:
+FileTable:
+[]
+-------------------------
+ExeStack:
+(statements.OpenFileStmt@2dda6444 (int varc; (statements.ReadFileStmt@5e9f23b4 (print(varc) (statements.ReadFileStmt@4783da3f (print(varc) statements.CloseFileStmt@378fd1ac))))))
+SymTable:
+varf=C:\Users\Asus\IdeaProjects\A2\src\ui\test.in
+Out:
+FileTable:
+[]
+-------------------------
+ExeStack:
+(int varc; (statements.ReadFileStmt@5e9f23b4 (print(varc) (statements.ReadFileStmt@4783da3f (print(varc) statements.CloseFileStmt@378fd1ac)))))
+statements.OpenFileStmt@2dda6444
+SymTable:
+varf=C:\Users\Asus\IdeaProjects\A2\src\ui\test.in
+Out:
+FileTable:
+[]
+-------------------------
+ExeStack:
+(int varc; (statements.ReadFileStmt@5e9f23b4 (print(varc) (statements.ReadFileStmt@4783da3f (print(varc) statements.CloseFileStmt@378fd1ac)))))
+SymTable:
+varf=C:\Users\Asus\IdeaProjects\A2\src\ui\test.in
+Out:
+FileTable:
+[C:\Users\Asus\IdeaProjects\A2\src\ui\test.in]
+-------------------------
+ExeStack:
+(statements.ReadFileStmt@5e9f23b4 (print(varc) (statements.ReadFileStmt@4783da3f (print(varc) statements.CloseFileStmt@378fd1ac))))
+int varc;
+SymTable:
+varf=C:\Users\Asus\IdeaProjects\A2\src\ui\test.in
+Out:
+FileTable:
+[C:\Users\Asus\IdeaProjects\A2\src\ui\test.in]
+-------------------------
+ExeStack:
+(statements.ReadFileStmt@5e9f23b4 (print(varc) (statements.ReadFileStmt@4783da3f (print(varc) statements.CloseFileStmt@378fd1ac))))
+SymTable:
+varf=C:\Users\Asus\IdeaProjects\A2\src\ui\test.in
+varc=0
+Out:
+FileTable:
+[C:\Users\Asus\IdeaProjects\A2\src\ui\test.in]
+-------------------------
+ExeStack:
+(print(varc) (statements.ReadFileStmt@4783da3f (print(varc) statements.CloseFileStmt@378fd1ac)))
+statements.ReadFileStmt@5e9f23b4
+SymTable:
+varf=C:\Users\Asus\IdeaProjects\A2\src\ui\test.in
+varc=0
+Out:
+FileTable:
+[C:\Users\Asus\IdeaProjects\A2\src\ui\test.in]
+-------------------------
+ExeStack:
+(print(varc) (statements.ReadFileStmt@4783da3f (print(varc) statements.CloseFileStmt@378fd1ac)))
+SymTable:
+varf=C:\Users\Asus\IdeaProjects\A2\src\ui\test.in
+varc=15
+Out:
+FileTable:
+[C:\Users\Asus\IdeaProjects\A2\src\ui\test.in]
+-------------------------
+ExeStack:
+(statements.ReadFileStmt@4783da3f (print(varc) statements.CloseFileStmt@378fd1ac))
+print(varc)
+SymTable:
+varf=C:\Users\Asus\IdeaProjects\A2\src\ui\test.in
+varc=15
+Out:
+FileTable:
+[C:\Users\Asus\IdeaProjects\A2\src\ui\test.in]
+-------------------------
+ExeStack:
+(statements.ReadFileStmt@4783da3f (print(varc) statements.CloseFileStmt@378fd1ac))
+SymTable:
+varf=C:\Users\Asus\IdeaProjects\A2\src\ui\test.in
+varc=15
+Out:
+15
+FileTable:
+[C:\Users\Asus\IdeaProjects\A2\src\ui\test.in]
+-------------------------
+ExeStack:
+(print(varc) statements.CloseFileStmt@378fd1ac)
+statements.ReadFileStmt@4783da3f
+SymTable:
+varf=C:\Users\Asus\IdeaProjects\A2\src\ui\test.in
+varc=15
+Out:
+15
+FileTable:
+[C:\Users\Asus\IdeaProjects\A2\src\ui\test.in]
+-------------------------
+ExeStack:
+(print(varc) statements.CloseFileStmt@378fd1ac)
+SymTable:
+varf=C:\Users\Asus\IdeaProjects\A2\src\ui\test.in
+varc=50
+Out:
+15
+FileTable:
+[C:\Users\Asus\IdeaProjects\A2\src\ui\test.in]
+-------------------------
+ExeStack:
+statements.CloseFileStmt@378fd1ac
+print(varc)
+SymTable:
+varf=C:\Users\Asus\IdeaProjects\A2\src\ui\test.in
+varc=50
+Out:
+15
+FileTable:
+[C:\Users\Asus\IdeaProjects\A2\src\ui\test.in]
+-------------------------
+ExeStack:
+statements.CloseFileStmt@378fd1ac
+SymTable:
+varf=C:\Users\Asus\IdeaProjects\A2\src\ui\test.in
+varc=50
+Out:
+15
+50
+FileTable:
+[C:\Users\Asus\IdeaProjects\A2\src\ui\test.in]
+-------------------------
+ExeStack:
+SymTable:
+varf=C:\Users\Asus\IdeaProjects\A2\src\ui\test.in
+varc=50
+Out:
+15
+50
+FileTable:
+[]
+-------------------------
+ExeStack:
+(string varf; (varf=C:\Users\Asus\IdeaProjects\A2\src\ui\test.in (statements.OpenFileStmt@2dda6444 (int varc; (statements.ReadFileStmt@5e9f23b4 (print(varc) (statements.ReadFileStmt@4783da3f (print(varc) statements.CloseFileStmt@378fd1ac))))))))
+SymTable:
+Out:
+FileTable:
+[]
+-------------------------
+ExeStack:
+(varf=C:\Users\Asus\IdeaProjects\A2\src\ui\test.in (statements.OpenFileStmt@2dda6444 (int varc; (statements.ReadFileStmt@5e9f23b4 (print(varc) (statements.ReadFileStmt@4783da3f (print(varc) statements.CloseFileStmt@378fd1ac)))))))
+string varf;
+SymTable:
+Out:
+FileTable:
+[]
+-------------------------
+ExeStack:
+(varf=C:\Users\Asus\IdeaProjects\A2\src\ui\test.in (statements.OpenFileStmt@2dda6444 (int varc; (statements.ReadFileStmt@5e9f23b4 (print(varc) (statements.ReadFileStmt@4783da3f (print(varc) statements.CloseFileStmt@378fd1ac)))))))
+SymTable:
+varf=
+Out:
+FileTable:
+[]
+-------------------------
+ExeStack:
+(statements.OpenFileStmt@2dda6444 (int varc; (statements.ReadFileStmt@5e9f23b4 (print(varc) (statements.ReadFileStmt@4783da3f (print(varc) statements.CloseFileStmt@378fd1ac))))))
+varf=C:\Users\Asus\IdeaProjects\A2\src\ui\test.in
+SymTable:
+varf=
+Out:
+FileTable:
+[]
+-------------------------
+ExeStack:
+(statements.OpenFileStmt@2dda6444 (int varc; (statements.ReadFileStmt@5e9f23b4 (print(varc) (statements.ReadFileStmt@4783da3f (print(varc) statements.CloseFileStmt@378fd1ac))))))
+SymTable:
+varf=C:\Users\Asus\IdeaProjects\A2\src\ui\test.in
+Out:
+FileTable:
+[]
+-------------------------
+ExeStack:
+(int varc; (statements.ReadFileStmt@5e9f23b4 (print(varc) (statements.ReadFileStmt@4783da3f (print(varc) statements.CloseFileStmt@378fd1ac)))))
+statements.OpenFileStmt@2dda6444
+SymTable:
+varf=C:\Users\Asus\IdeaProjects\A2\src\ui\test.in
+Out:
+FileTable:
+[]
+-------------------------
+ExeStack:
+(int varc; (statements.ReadFileStmt@5e9f23b4 (print(varc) (statements.ReadFileStmt@4783da3f (print(varc) statements.CloseFileStmt@378fd1ac)))))
+SymTable:
+varf=C:\Users\Asus\IdeaProjects\A2\src\ui\test.in
+Out:
+FileTable:
+[C:\Users\Asus\IdeaProjects\A2\src\ui\test.in]
+-------------------------
+ExeStack:
+(statements.ReadFileStmt@5e9f23b4 (print(varc) (statements.ReadFileStmt@4783da3f (print(varc) statements.CloseFileStmt@378fd1ac))))
+int varc;
+SymTable:
+varf=C:\Users\Asus\IdeaProjects\A2\src\ui\test.in
+Out:
+FileTable:
+[C:\Users\Asus\IdeaProjects\A2\src\ui\test.in]
+-------------------------
+ExeStack:
+(statements.ReadFileStmt@5e9f23b4 (print(varc) (statements.ReadFileStmt@4783da3f (print(varc) statements.CloseFileStmt@378fd1ac))))
+SymTable:
+varf=C:\Users\Asus\IdeaProjects\A2\src\ui\test.in
+varc=0
+Out:
+FileTable:
+[C:\Users\Asus\IdeaProjects\A2\src\ui\test.in]
+-------------------------
+ExeStack:
+(print(varc) (statements.ReadFileStmt@4783da3f (print(varc) statements.CloseFileStmt@378fd1ac)))
+statements.ReadFileStmt@5e9f23b4
+SymTable:
+varf=C:\Users\Asus\IdeaProjects\A2\src\ui\test.in
+varc=0
+Out:
+FileTable:
+[C:\Users\Asus\IdeaProjects\A2\src\ui\test.in]
+-------------------------
+ExeStack:
+(print(varc) (statements.ReadFileStmt@4783da3f (print(varc) statements.CloseFileStmt@378fd1ac)))
+SymTable:
+varf=C:\Users\Asus\IdeaProjects\A2\src\ui\test.in
+varc=15
+Out:
+FileTable:
+[C:\Users\Asus\IdeaProjects\A2\src\ui\test.in]
+-------------------------
+ExeStack:
+(statements.ReadFileStmt@4783da3f (print(varc) statements.CloseFileStmt@378fd1ac))
+print(varc)
+SymTable:
+varf=C:\Users\Asus\IdeaProjects\A2\src\ui\test.in
+varc=15
+Out:
+FileTable:
+[C:\Users\Asus\IdeaProjects\A2\src\ui\test.in]
+-------------------------
+ExeStack:
+(statements.ReadFileStmt@4783da3f (print(varc) statements.CloseFileStmt@378fd1ac))
+SymTable:
+varf=C:\Users\Asus\IdeaProjects\A2\src\ui\test.in
+varc=15
+Out:
+15
+FileTable:
+[C:\Users\Asus\IdeaProjects\A2\src\ui\test.in]
+-------------------------
+ExeStack:
+(print(varc) statements.CloseFileStmt@378fd1ac)
+statements.ReadFileStmt@4783da3f
+SymTable:
+varf=C:\Users\Asus\IdeaProjects\A2\src\ui\test.in
+varc=15
+Out:
+15
+FileTable:
+[C:\Users\Asus\IdeaProjects\A2\src\ui\test.in]
+-------------------------
+ExeStack:
+(print(varc) statements.CloseFileStmt@378fd1ac)
+SymTable:
+varf=C:\Users\Asus\IdeaProjects\A2\src\ui\test.in
+varc=50
+Out:
+15
+FileTable:
+[C:\Users\Asus\IdeaProjects\A2\src\ui\test.in]
+-------------------------
+ExeStack:
+statements.CloseFileStmt@378fd1ac
+print(varc)
+SymTable:
+varf=C:\Users\Asus\IdeaProjects\A2\src\ui\test.in
+varc=50
+Out:
+15
+FileTable:
+[C:\Users\Asus\IdeaProjects\A2\src\ui\test.in]
+-------------------------
+ExeStack:
+statements.CloseFileStmt@378fd1ac
+SymTable:
+varf=C:\Users\Asus\IdeaProjects\A2\src\ui\test.in
+varc=50
+Out:
+15
+50
+FileTable:
+[C:\Users\Asus\IdeaProjects\A2\src\ui\test.in]
+-------------------------
+ExeStack:
+SymTable:
+varf=C:\Users\Asus\IdeaProjects\A2\src\ui\test.in
+varc=50
+Out:
+15
+50
+FileTable:
+[]
+-------------------------
